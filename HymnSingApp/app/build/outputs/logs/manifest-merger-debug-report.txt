@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f09163e1f1e81c3600f772414e05d16b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/9424214a62125e17f3057ae961953aee/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/bdfc1d2d2cabbf6e77c5e76775676ed2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/cd4f66f543fafe1d2d35fdbf369e915f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/820b029973d84068f5bcf69c2c29202e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/b7f0eb269c2fb1f70e68e21c51cb9bbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/d4bf1eb71a52e92ed8d8d73cd7588c17/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/867d3ed4d4221160ed56dd909e78422f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/c70943059f6f4047581aaf12d856a25d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/ff238e9fc317b92d648861e792ab76bf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/ef2138150f47847ffda767eda1f1e35d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/7454425d2af0f1dd18f3e26aa10ea7ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f65783ddaf953bad03af9cdcdb55277d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/eaaa77a8570de890d072078a83a4747a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/cfb8ef68e3d9c6d13ce526fe456a0c33/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/d6c1a81f381eef864b45f9b2f5c2c552/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/4d15a13dc9326718830ee4e83492cba8/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/2f3ae1cede8f41ed9da941f90b554153/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/fbaa2fb0eadc5e7b7026b9e0d3c6a28a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/175771ddcfea292735a135bfac118d00/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/8a0f8b90d30c165f14883b4f7e9a48ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/3588569d596e209774b9ba45961a1957/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/80be800c0e24f0a6fa128a6a524edcf0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/581bc3d4eaa336db31b6015631679f8a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/74c279f181eb5eb23df26becd1c6b7ba/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f8352fc6c76e2e06445949675ce0692d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f489294ba5bedef3425d761fecdbc63e/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/9424214a62125e17f3057ae961953aee/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/9424214a62125e17f3057ae961953aee/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/d6c1a81f381eef864b45f9b2f5c2c552/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/d6c1a81f381eef864b45f9b2f5c2c552/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/4d15a13dc9326718830ee4e83492cba8/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/4d15a13dc9326718830ee4e83492cba8/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/d6c1a81f381eef864b45f9b2f5c2c552/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:11:9-40
+activity#cis657.project.hymnsingapp.MainActivity
+ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f09163e1f1e81c3600f772414e05d16b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f09163e1f1e81c3600f772414e05d16b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/9424214a62125e17f3057ae961953aee/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/9424214a62125e17f3057ae961953aee/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/bdfc1d2d2cabbf6e77c5e76775676ed2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/bdfc1d2d2cabbf6e77c5e76775676ed2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/cd4f66f543fafe1d2d35fdbf369e915f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/cd4f66f543fafe1d2d35fdbf369e915f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/820b029973d84068f5bcf69c2c29202e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/820b029973d84068f5bcf69c2c29202e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/b7f0eb269c2fb1f70e68e21c51cb9bbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/b7f0eb269c2fb1f70e68e21c51cb9bbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/d4bf1eb71a52e92ed8d8d73cd7588c17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/d4bf1eb71a52e92ed8d8d73cd7588c17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/867d3ed4d4221160ed56dd909e78422f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/867d3ed4d4221160ed56dd909e78422f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/c70943059f6f4047581aaf12d856a25d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/c70943059f6f4047581aaf12d856a25d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/ff238e9fc317b92d648861e792ab76bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/ff238e9fc317b92d648861e792ab76bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/ef2138150f47847ffda767eda1f1e35d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/ef2138150f47847ffda767eda1f1e35d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/7454425d2af0f1dd18f3e26aa10ea7ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/7454425d2af0f1dd18f3e26aa10ea7ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f65783ddaf953bad03af9cdcdb55277d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f65783ddaf953bad03af9cdcdb55277d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/eaaa77a8570de890d072078a83a4747a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/eaaa77a8570de890d072078a83a4747a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/cfb8ef68e3d9c6d13ce526fe456a0c33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/cfb8ef68e3d9c6d13ce526fe456a0c33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/d6c1a81f381eef864b45f9b2f5c2c552/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/d6c1a81f381eef864b45f9b2f5c2c552/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/4d15a13dc9326718830ee4e83492cba8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/4d15a13dc9326718830ee4e83492cba8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/2f3ae1cede8f41ed9da941f90b554153/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/2f3ae1cede8f41ed9da941f90b554153/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/fbaa2fb0eadc5e7b7026b9e0d3c6a28a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/fbaa2fb0eadc5e7b7026b9e0d3c6a28a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/175771ddcfea292735a135bfac118d00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/175771ddcfea292735a135bfac118d00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/8a0f8b90d30c165f14883b4f7e9a48ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/8a0f8b90d30c165f14883b4f7e9a48ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/3588569d596e209774b9ba45961a1957/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/3588569d596e209774b9ba45961a1957/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/80be800c0e24f0a6fa128a6a524edcf0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/80be800c0e24f0a6fa128a6a524edcf0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/581bc3d4eaa336db31b6015631679f8a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/581bc3d4eaa336db31b6015631679f8a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/74c279f181eb5eb23df26becd1c6b7ba/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/74c279f181eb5eb23df26becd1c6b7ba/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f8352fc6c76e2e06445949675ce0692d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f8352fc6c76e2e06445949675ce0692d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f489294ba5bedef3425d761fecdbc63e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/f489294ba5bedef3425d761fecdbc63e/AndroidManifest.xml:20:5-44
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nyenhuir/AndroidStudioProjects/HymnSingApp/app/src/main/AndroidManifest.xml
