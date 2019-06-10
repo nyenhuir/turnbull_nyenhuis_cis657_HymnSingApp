@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HymnSingApp</string>
+    <string name="title_activity_songs_screen">SongsScreen</string>
+    <string name="title_activity_pdf_screen">PdfScreen</string>
 </resources>
