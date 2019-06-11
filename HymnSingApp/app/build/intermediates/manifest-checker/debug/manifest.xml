@@ -21,22 +21,23 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity
-            android:name="cis657.project.hymnsingapp.PdfScreen"
-            android:label="@string/title_activity_pdf_screen"
-            android:parentActivityName="cis657.project.hymnsingapp.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="cis657.project.hymnsingapp.MainActivity" />
-        </activity>
-        <activity android:name="cis657.project.hymnsingapp.MainActivity" >
+        <activity android:name="cis657.project.hymnsingapp.HomeScreenActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="cis657.project.hymnsingapp.PdfScreen"
+            android:label="@string/title_activity_pdf_screen"
+            android:parentActivityName="cis657.project.hymnsingapp.HymnSearchActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cis657.project.hymnsingapp.HymnSearchActivity" />
+        </activity>
+        <activity android:name="cis657.project.hymnsingapp.HymnSearchActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
