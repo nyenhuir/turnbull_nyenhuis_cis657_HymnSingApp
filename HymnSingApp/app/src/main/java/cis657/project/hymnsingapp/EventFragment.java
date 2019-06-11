@@ -3,6 +3,7 @@ package cis657.project.hymnsingapp;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -10,8 +11,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import cis657.project.hymnsingapp.dummy.DummyContent;
-import cis657.project.hymnsingapp.dummy.DummyContent.DummyEvent;
+import cis657.project.hymnsingapp.dummy.EventContent.EventItem;
+
+import cis657.project.hymnsingapp.EventAdapter;
 
 /**
  * A fragment representing a list of Items.
@@ -27,6 +29,7 @@ public class EventFragment extends Fragment {
     private int mColumnCount = 1;
     private OnListFragmentInteractionListener mListener;
 
+
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
@@ -36,8 +39,8 @@ public class EventFragment extends Fragment {
 
     // TODO: Customize parameter initialization
     @SuppressWarnings("unused")
-    public static EventFragment newInstance(int columnCount) {
-        EventFragment fragment = new EventFragment();
+    public static cis657.project.hymnsingapp.EventFragment newInstance(int columnCount) {
+        cis657.project.hymnsingapp.EventFragment fragment = new cis657.project.hymnsingapp.EventFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_COLUMN_COUNT, columnCount);
         fragment.setArguments(args);
@@ -62,12 +65,16 @@ public class EventFragment extends Fragment {
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
             RecyclerView recyclerView = (RecyclerView) view;
+            DividerItemDecoration did = new DividerItemDecoration(recyclerView.getContext(),
+                    DividerItemDecoration.VERTICAL);
+            recyclerView.addItemDecoration(did);
+
             if (mColumnCount <= 1) {
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new EventAdapter(DummyContent.ITEMS, mListener));
+            recyclerView.setAdapter(new EventAdapter(cis657.project.hymnsingapp.dummy.EventContent.ITEMS, mListener));
         }
         return view;
     }
@@ -102,6 +109,6 @@ public class EventFragment extends Fragment {
      */
     public interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onListFragmentInteraction(DummyEvent item);
+        void onListFragmentInteraction(EventItem item);
     }
 }

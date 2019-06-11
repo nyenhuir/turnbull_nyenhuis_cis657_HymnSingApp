@@ -3,6 +3,7 @@ package cis657.project.hymnsingapp;
 
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -68,7 +69,7 @@ public class HymnSearchActivity extends AppCompatActivity {
             }
 
         } catch (Throwable t) {
-            t.printStackTrace();
+//            t.printStackTrace();
         }
         return buffer.toString();
     }

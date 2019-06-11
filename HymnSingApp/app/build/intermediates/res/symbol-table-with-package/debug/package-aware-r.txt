@@ -909,6 +909,7 @@ dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1113,10 +1114,12 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id fragment
 id ghost_view
 id gone
 id group_divider
 id groups
+id header
 id home
 id homeAsUp
 id homeButton
@@ -1133,6 +1136,7 @@ id largeLabel
 id left
 id line1
 id line3
+id list
 id listMode
 id list_item
 id masked
@@ -1152,6 +1156,8 @@ id notification_main_column
 id notification_main_column_container
 id organizationButton
 id outline
+id p1
+id p2
 id packed
 id parallax
 id parent
@@ -1224,6 +1230,7 @@ id textinput_error
 id textinput_helper_text
 id the_webview
 id time
+id timestamp
 id title
 id titleDividerNoCustom
 id title_template
@@ -1310,6 +1317,9 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_event
+layout fragment_event_list
+layout list_section_header
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

@@ -19,6 +19,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity android:name="cis657.project.hymnsingapp.HomeScreenActivity" >
@@ -38,6 +39,11 @@
                 android:value="cis657.project.hymnsingapp.HymnSearchActivity" />
         </activity>
         <activity android:name="cis657.project.hymnsingapp.HymnSearchActivity" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="cis657.project.hymnsingapp.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

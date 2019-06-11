@@ -32,13 +32,13 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int item_touch_helper_previous_elevation = 0x7f080060;
-        public static final int title_text = 0x7f0800c4;
+        public static final int item_touch_helper_previous_elevation = 0x7f080062;
+        public static final int title_text = 0x7f0800ca;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int view_header = 0x7f0b0042;
+        public static final int view_header = 0x7f0b0045;
     }
     public static final class string {
         private string() {}

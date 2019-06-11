@@ -32,7 +32,7 @@
         android:id="@+id/organizationButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:text="Organizations"
+        android:text="Create Event"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/songButton"

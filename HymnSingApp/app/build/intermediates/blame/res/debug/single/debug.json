@@ -8,12 +8,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_qatar.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_qatar"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_qatar.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_qatar"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_kuwait.flat",
@@ -36,12 +36,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_bogota.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_bogota"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_europe_belgrade.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_europe_belgrade"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_bogota.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_bogota"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_glace_bay.flat",
@@ -136,16 +136,16 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_damascus"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_sakhalin.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_sakhalin"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_antarctica_syowa.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_antarctica_syowa"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/cb044cc309abef652072ec9704e0d95f/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_antarctica_syowa.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_antarctica_syowa"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_sakhalin.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_sakhalin"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -156,12 +156,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -228,32 +228,32 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_ojinaga"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/dc39e000ef5b5d3d496a4abae7155dc9/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_australia_lindeman.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_australia_lindeman"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_amman.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_amman"
-    },
-    {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_small_material.xml.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/dc39e000ef5b5d3d496a4abae7155dc9/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_recife.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_recife"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_godthab.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_godthab"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_small_material.xml.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_amman.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_amman"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_pacific_port_moresby.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_pacific_port_moresby"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_godthab.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_godthab"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_asuncion.flat",
@@ -316,12 +316,16 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_chungking.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_chungking"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_martinique.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_martinique"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_fragment_event.xml.flat",
+        "source": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/res/layout/fragment_event.xml"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_chungking.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_chungking"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_chicago.flat",
@@ -368,12 +372,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_north_dakota_new_salem.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_north_dakota_new_salem"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_north_dakota_new_salem.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_north_dakota_new_salem"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/animator_mtrl_fab_hide_motion_spec.xml.flat",
@@ -388,12 +392,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/dc39e000ef5b5d3d496a4abae7155dc9/res/layout/notification_action.xml"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_europe_mariehamn.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_europe_mariehamn"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/dc39e000ef5b5d3d496a4abae7155dc9/res/layout/notification_action.xml"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
@@ -450,6 +454,10 @@
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_halifax.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_halifax"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_list_section_header.xml.flat",
+        "source": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/res/layout/list_section_header.xml"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_africa_ceuta.flat",
@@ -516,16 +524,16 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_europe_tallinn"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable_design_bottom_navigation_item_background.xml.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/cb044cc309abef652072ec9704e0d95f/res/drawable/design_bottom_navigation_item_background.xml"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_etc_gmt.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_etc_gmt"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/color_abc_tint_switch_track.xml.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_etc_gmt.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_etc_gmt"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable_design_bottom_navigation_item_background.xml.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/cb044cc309abef652072ec9704e0d95f/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -548,32 +556,32 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_indian_chagos"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_mst7mdt.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_mst7mdt"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_boise.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_boise"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_mst7mdt.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_mst7mdt"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_denver.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_denver"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/color/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_pacific_pago_pago.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_pacific_pago_pago"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/color/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/color_mtrl_tabs_ripple_color.xml.flat",
@@ -584,12 +592,12 @@
         "source": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_cayman.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_cayman"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_nicosia.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_nicosia"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_cayman.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_cayman"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -632,12 +640,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_hst.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_hst"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",
@@ -748,16 +756,16 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_pacific_johnston"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/layout/abc_expanded_menu_layout.xml"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
@@ -780,12 +788,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_khandyga"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_hanoi.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_hanoi"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_indian_mayotte.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_indian_mayotte"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_hanoi.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_hanoi"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_thumb_material.xml.flat",
@@ -840,12 +848,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_noronha"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable_abc_textfield_search_material.xml.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable_abc_textfield_search_material.xml.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable/abc_textfield_search_material.xml"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_lima.flat",
@@ -868,12 +876,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/layout/abc_tooltip.xml"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_europe_paris.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_europe_paris"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_america_rio_branco.flat",
@@ -944,12 +952,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_st_johns"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_pacific_rarotonga.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_pacific_rarotonga"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_pacific_enderbury.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_pacific_enderbury"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_pacific_rarotonga.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_pacific_rarotonga"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -992,12 +1000,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_america_yellowknife"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -1020,24 +1028,24 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_europe_vilnius.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_europe_vilnius"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_indian_reunion.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_indian_reunion"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_africa_algiers.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_africa_algiers"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_indian_reunion.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_indian_reunion"
-    },
-    {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_europe_vilnius.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_europe_vilnius"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility.xml.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/cb044cc309abef652072ec9704e0d95f/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -1124,12 +1132,12 @@
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/84c04f692a3c0fd787186761098c2f7d/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/dc39e000ef5b5d3d496a4abae7155dc9/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_asia_kathmandu.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_asia_kathmandu"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/dc39e000ef5b5d3d496a4abae7155dc9/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -3286,6 +3294,10 @@
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/raw_joda_europe_guernsey.flat",
         "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/34d83ebca6d0c82c7769dca2b0f4f513/res/raw/joda_europe_guernsey"
+    },
+    {
+        "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/layout_fragment_event_list.xml.flat",
+        "source": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/res/layout/fragment_event_list.xml"
     },
     {
         "merged": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat",
