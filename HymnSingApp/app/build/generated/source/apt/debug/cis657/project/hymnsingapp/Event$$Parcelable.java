@@ -8,7 +8,7 @@ import org.parceler.IdentityCollection;
 import org.parceler.ParcelWrapper;
 import org.parceler.ParcelerRuntimeException;
 
-@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2019-06-12T16:27-0400")
+@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2019-06-12T17:58-0400")
 @SuppressWarnings({
     "unchecked",
     "deprecation"
@@ -54,6 +54,7 @@ public class Event$$Parcelable
             parcel$$1 .writeString(event$$1 .location);
             parcel$$1 .writeString(event$$1 .time);
             parcel$$1 .writeString(event$$1 .title);
+            parcel$$1 .writeString(event$$1 ._eventkey);
         }
     }
 
@@ -83,6 +84,7 @@ public class Event$$Parcelable
             event$$4 .location = parcel$$3 .readString();
             event$$4 .time = parcel$$3 .readString();
             event$$4 .title = parcel$$3 .readString();
+            event$$4 ._eventkey = parcel$$3 .readString();
             cis657.project.hymnsingapp.Event event$$3 = event$$4;
             identityMap$$1 .put(identity$$1, event$$3);
             return event$$3;

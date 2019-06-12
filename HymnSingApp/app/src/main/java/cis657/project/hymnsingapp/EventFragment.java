@@ -11,7 +11,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import cis657.project.hymnsingapp.dummy.EventContent.EventItem;
+//import cis657.project.hymnsingapp.dummy.EventContent.EventItem;
+
+import java.util.List;
 
 import cis657.project.hymnsingapp.EventAdapter;
 
@@ -28,6 +30,7 @@ public class EventFragment extends Fragment {
     // TODO: Customize parameters
     private int mColumnCount = 1;
     private OnListFragmentInteractionListener mListener;
+    List<Event> allEvents;
 
 
     /**
@@ -35,12 +38,13 @@ public class EventFragment extends Fragment {
      * fragment (e.g. upon screen orientation changes).
      */
     public EventFragment() {
+        allEvents = HomeScreenActivity.allEvents;
     }
 
     // TODO: Customize parameter initialization
     @SuppressWarnings("unused")
-    public static cis657.project.hymnsingapp.EventFragment newInstance(int columnCount) {
-        cis657.project.hymnsingapp.EventFragment fragment = new cis657.project.hymnsingapp.EventFragment();
+    public static EventFragment newInstance(int columnCount) {
+        EventFragment fragment = new cis657.project.hymnsingapp.EventFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_COLUMN_COUNT, columnCount);
         fragment.setArguments(args);
@@ -54,6 +58,7 @@ public class EventFragment extends Fragment {
         if (getArguments() != null) {
             mColumnCount = getArguments().getInt(ARG_COLUMN_COUNT);
         }
+        allEvents = HomeScreenActivity.allEvents;
     }
 
     @Override
@@ -74,7 +79,7 @@ public class EventFragment extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new EventAdapter(cis657.project.hymnsingapp.dummy.EventContent.ITEMS, mListener));
+            recyclerView.setAdapter(new EventAdapter(allEvents, mListener));
         }
         return view;
     }
@@ -109,6 +114,6 @@ public class EventFragment extends Fragment {
      */
     public interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onListFragmentInteraction(EventItem item);
+        void onListFragmentInteraction(Event item);
     }
 }

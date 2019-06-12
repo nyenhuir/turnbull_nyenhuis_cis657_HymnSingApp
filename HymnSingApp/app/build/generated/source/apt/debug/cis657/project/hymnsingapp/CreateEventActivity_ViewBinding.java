@@ -15,9 +15,9 @@ import java.lang.Override;
 public class CreateEventActivity_ViewBinding<T extends CreateEventActivity> implements Unbinder {
   protected T target;
 
-  private View view2131230777;
+  private View view2131230780;
 
-  private View view2131230801;
+  private View view2131230804;
 
   @UiThread
   public CreateEventActivity_ViewBinding(final T target, View source) {
@@ -29,7 +29,7 @@ public class CreateEventActivity_ViewBinding<T extends CreateEventActivity> impl
     target.eventTime = Utils.findRequiredViewAsType(source, R.id.eventTime, "field 'eventTime'", EditText.class);
     view = Utils.findRequiredView(source, R.id.date, "field 'eventDateView' and method 'datePressed'");
     target.eventDateView = Utils.castView(view, R.id.date, "field 'eventDateView'", TextView.class);
-    view2131230777 = view;
+    view2131230780 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -37,7 +37,7 @@ public class CreateEventActivity_ViewBinding<T extends CreateEventActivity> impl
       }
     });
     view = Utils.findRequiredView(source, R.id.fab, "method 'FABPressed'");
-    view2131230801 = view;
+    view2131230804 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,10 +57,10 @@ public class CreateEventActivity_ViewBinding<T extends CreateEventActivity> impl
     target.eventTime = null;
     target.eventDateView = null;
 
-    view2131230777.setOnClickListener(null);
-    view2131230777 = null;
-    view2131230801.setOnClickListener(null);
-    view2131230801 = null;
+    view2131230780.setOnClickListener(null);
+    view2131230780 = null;
+    view2131230804.setOnClickListener(null);
+    view2131230804 = null;
 
     this.target = null;
   }

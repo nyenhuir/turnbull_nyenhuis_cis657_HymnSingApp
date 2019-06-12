@@ -10,22 +10,23 @@ import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 
 import cis657.project.hymnsingapp.EventFragment.OnListFragmentInteractionListener;
-import cis657.project.hymnsingapp.dummy.EventContent.EventItem;
+//import cis657.project.hymnsingapp.dummy.EventContent.EventItem;
 
 import java.util.List;
 
 /**
- * {@link RecyclerView.Adapter} that can display a {@link EventItem} and makes a call to the
+ * {@link RecyclerView.Adapter} that can display a {@link Event} and makes a call to the
  * specified {@link OnListFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
 public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> {
 
-    private final List<EventItem> mValues;
+    private final List<Event> mValues;
     private final OnListFragmentInteractionListener mListener;
 
-    public EventAdapter(List<EventItem> items, OnListFragmentInteractionListener listener) {
+    public EventAdapter(List<Event> items, OnListFragmentInteractionListener listener) {
         mValues = items;
+        //System.out.println("\n\n\n\nMVALUES: "+mValues.size());
         mListener = listener;
     }
 
@@ -38,33 +39,36 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
-        holder.mItem = this.mValues.get(position);
-        holder.mP1.setText("Title: " + holder.mItem.name );
-        holder.mP2.setText("Location: " + holder.mItem.location );
-        holder.mDateTime.setText("Date: " + holder.mItem.date);
-        holder.mView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (null != mListener) {
-                    // Notify the active callbacks interface (the activity, if the
-                    // fragment is attached to one) that an item has been selected.
-                    mListener.onListFragmentInteraction(holder.mItem);
+        if(holder.mItem!=null) {
+            holder.mItem = this.mValues.get(position);
+            holder.mP1.setText("Title: " + holder.mItem.title);
+            holder.mP2.setText("Location: " + holder.mItem.location);
+            holder.mDateTime.setText("Date: " + holder.mItem.date);
+            holder.mView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (null != mListener) {
+                        // Notify the active callbacks interface (the activity, if the
+                        // fragment is attached to one) that an item has been selected.
+                        mListener.onListFragmentInteraction(holder.mItem);
+                    }
                 }
-            }
-        });
+            });
+        }
     }
 
     @Override
     public int getItemCount() {
+        if(mValues==null) return 0;
         return mValues.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder{
         public final View mView;
         public final TextView mP1;
         public final TextView mP2;
         public final TextView mDateTime;
-        public EventItem mItem;
+        public Event mItem;
 
         public ViewHolder(View view) {
             super(view);

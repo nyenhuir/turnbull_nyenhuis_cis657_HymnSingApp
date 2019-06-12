@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:interpolator:28.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce5cda930f0d08381a96cd4e30281539/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce5cda930f0d08381a96cd4e30281539/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8280d13d4c4113bbf8f54c3fa53bd5e5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8280d13d4c4113bbf8f54c3fa53bd5e5/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
