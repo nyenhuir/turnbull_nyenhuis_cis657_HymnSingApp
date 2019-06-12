@@ -2,15 +2,11 @@ package cis657.project.hymnsingapp;
 
 import android.content.Intent;
 import android.os.Parcelable;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.widget.RecyclerView;
 import android.widget.Button;
 
-import org.joda.time.DateTime;
-import org.joda.time.format.DateTimeFormatter;
-import org.joda.time.format.ISODateTimeFormat;
 import org.parceler.Parcels;
 
 import cis657.project.hymnsingapp.dummy.EventContent;
@@ -26,6 +22,7 @@ public class HomeScreenActivity extends AppCompatActivity
     Button eventButton;
     Button songButton;
     Button bulletinButton;
+    RecyclerView recycleview;
 
 
 
@@ -38,6 +35,7 @@ public class HomeScreenActivity extends AppCompatActivity
         eventButton = (Button) findViewById(R.id.organizationButton);
         songButton = (Button) findViewById(R.id.songButton);
         bulletinButton = (Button) findViewById(R.id.bulletinButton);
+        recycleview = (RecyclerView) findViewById(R.id.fragment);
 
 
 
@@ -75,8 +73,8 @@ public class HomeScreenActivity extends AppCompatActivity
                         e.location, e.time, e.date);
                 EventContent.addItem(item);
 
-//                getSupportFragmentManager().beginTransaction().detach(findViewById(R.id.fragment).attach().commit();
-
+                recycleview.getAdapter().notifyDataSetChanged();
+                }
                 if (nextScreen.contentEquals("song")) {
                     Intent newLocation = new Intent(HomeScreenActivity.this, ViewSongsActivity.class);
                     startActivityForResult(newLocation, SONG_RESULT);
@@ -87,7 +85,7 @@ public class HomeScreenActivity extends AppCompatActivity
                     startActivityForResult(newLocation, BULLETIN_RESULT);
                 }
             }
-        }
+
         else if (resultCode == SONG_RESULT) {
         }
         else if (resultCode == BULLETIN_RESULT) {
