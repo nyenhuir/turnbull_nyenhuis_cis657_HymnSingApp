@@ -629,7 +629,6 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
-color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -830,8 +829,6 @@ dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
-dimen header_height
-dimen header_padding
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -1234,7 +1231,6 @@ id timestamp
 id title
 id titleDividerNoCustom
 id title_template
-id title_text
 id toolbar
 id top
 id topPanel
@@ -1341,7 +1337,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-layout view_header
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals joda_time_android_abbrev_in_num_days

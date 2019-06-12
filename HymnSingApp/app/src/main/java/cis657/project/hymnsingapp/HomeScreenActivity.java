@@ -1,7 +1,6 @@
 package cis657.project.hymnsingapp;
 
 import android.content.Intent;
-import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -32,22 +31,22 @@ public class HomeScreenActivity extends AppCompatActivity
 
 
         homeButton.setOnClickListener(y -> {
-            Intent newLocation = new Intent(HomeScreenActivity.this, HymnSearchActivity.class);
+            Intent newLocation = new Intent(HomeScreenActivity.this, MainActivity.class);
             startActivityForResult(newLocation, SEARCH_RESULT);
         });
 
         organizationButton.setOnClickListener(y -> {
-            Intent newLocation = new Intent(HomeScreenActivity.this, HymnSearchActivity.class);
+            Intent newLocation = new Intent(HomeScreenActivity.this, MainActivity.class);
             startActivityForResult(newLocation, SEARCH_RESULT);
         });
 
         songButton.setOnClickListener(y -> {
-            Intent newLocation = new Intent(HomeScreenActivity.this, HymnSearchActivity.class);
+            Intent newLocation = new Intent(HomeScreenActivity.this, MainActivity.class);
             startActivityForResult(newLocation, SEARCH_RESULT);
         });
 
         bulletinButton.setOnClickListener(y -> {
-            Intent newLocation = new Intent(HomeScreenActivity.this, HymnSearchActivity.class);
+            Intent newLocation = new Intent(HomeScreenActivity.this, MainActivity.class);
             startActivityForResult(newLocation, SEARCH_RESULT);
         });
     }

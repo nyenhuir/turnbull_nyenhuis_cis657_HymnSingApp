@@ -3,7 +3,6 @@ package cis657.project.hymnsingapp;
 
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,7 +17,7 @@ import org.jsoup.select.Elements;
 import java.util.ArrayList;
 
 
-public class HymnSearchActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     EditText RespText=null;
     ArrayList<String> url = new ArrayList<String>();
@@ -69,7 +68,7 @@ public class HymnSearchActivity extends AppCompatActivity {
             }
 
         } catch (Throwable t) {
-//            t.printStackTrace();
+            t.printStackTrace();
         }
         return buffer.toString();
     }
@@ -79,7 +78,7 @@ public class HymnSearchActivity extends AppCompatActivity {
         protected void onPostExecute (String s){
         super.onPostExecute(s);
         RespText.setText(s);
-        Intent intent = new Intent(HymnSearchActivity.this, PdfScreen.class);
+        Intent intent = new Intent(MainActivity.this, PdfScreen.class);
         intent.putExtra("n1", url.get(0));
         startActivity(intent);
     }

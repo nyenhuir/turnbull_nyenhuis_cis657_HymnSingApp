@@ -22,13 +22,13 @@
         <activity
             android:name=".PdfScreen"
             android:label="@string/title_activity_pdf_screen"
-            android:parentActivityName=".HymnSearchActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="cis657.project.hymnsingapp.HymnSearchActivity" />
+                android:value="cis657.project.hymnsingapp.MainActivity" />
         </activity>
-        <activity android:name=".HymnSearchActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
