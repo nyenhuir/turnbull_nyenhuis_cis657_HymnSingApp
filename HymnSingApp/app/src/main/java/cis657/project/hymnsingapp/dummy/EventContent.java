@@ -15,29 +15,30 @@ import java.util.Map;
  */
 public class EventContent {
     public static final List<EventItem> ITEMS = new ArrayList<EventItem>();
-    static {
-        DateTime now = DateTime.now();
-        addItem(new EventItem("Hymnsing1", "CHURCH 1", now.minusDays(1)));
-        addItem(new EventItem("Hymnsing2", "CHURCH 2", now.minusDays(1)));
-        addItem(new EventItem("Hymnsing3", "CHURCH 3", now.plusDays(1)));
-        addItem(new EventItem("Hymnsing4", "CHURCH 4", now.plusDays(1)));
-    }
-
+//    static {
+//        DateTime now = DateTime.now();
+//        addItem(new EventItem("Hymnsing1", "CHURCH 1", "CHURCH 1","CHURCH 1f"));
+//        addItem(new EventItem("Hymnsing1", "CHURCH 1", "CHURCH 1","CHURCH 1f"));
+//        addItem(new EventItem("Hymnsing1", "CHURCH 1", "CHURCH 1","CHURCH 1f"));
+//        addItem(new EventItem("Hymnsing1", "CHURCH 1", "CHURCH 1","CHURCH 1f"));
+//    }
 
     public static void addItem(EventItem item) {
         ITEMS.add(item);
     }
 
-    public static class EventItem {
-        public final String name;
-        public final String location;
-        public final DateTime timestamp;
 
-        public EventItem(String name, String location, DateTime timestamp) {
+    public static class EventItem {
+        public final String name,location,time,date;
+
+        public EventItem(String name, String location, String time, String date) {
             this.name = name;
             this.location = location;
-            this.timestamp = timestamp;
+            this.time = time;
+            this.date=date;
         }
+
+
 
         @Override
         public String toString() {

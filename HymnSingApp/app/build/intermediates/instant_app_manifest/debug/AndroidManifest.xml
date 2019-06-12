@@ -22,6 +22,9 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="cis657.project.hymnsingapp.BulletinActivity" />
+        <activity android:name="cis657.project.hymnsingapp.ViewSongsActivity" />
+        <activity android:name="cis657.project.hymnsingapp.CreateEventActivity" />
         <activity android:name="cis657.project.hymnsingapp.HomeScreenActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

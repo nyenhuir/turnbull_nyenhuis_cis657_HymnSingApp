@@ -11,7 +11,7 @@
         android:name="cis657.project.hymnsingapp.EventFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="69dp"
         app:layout_constraintBottom_toTopOf="@+id/organizationButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,5 +68,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/songButton"
         app:layout_constraintTop_toTopOf="@+id/songButton" />
+
+    <TextView
+        android:id="@+id/screenName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="casual"
+        android:text="HymnSing Home"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="============================================="
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenName" />
 
 </android.support.constraint.ConstraintLayout>

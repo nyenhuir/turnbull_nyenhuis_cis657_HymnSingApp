@@ -694,6 +694,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color windowBackground
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1007,6 +1008,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_check_black_24dp
+drawable ic_expand_more_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1035,6 +1038,8 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id Time
+id Title
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1084,6 +1089,7 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
+id date
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1101,6 +1107,9 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id eventLoc
+id eventTime
+id eventTitle
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1136,6 +1145,7 @@ id line3
 id list
 id listMode
 id list_item
+id loc
 id masked
 id media_actions
 id message
@@ -1172,6 +1182,7 @@ id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
 id screen
+id screenName
 id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -1231,6 +1242,7 @@ id timestamp
 id title
 id titleDividerNoCustom
 id title_template
+id titleline
 id toolbar
 id top
 id topPanel
@@ -1296,9 +1308,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_bulletin
+layout activity_create_event
 layout activity_home_screen
 layout activity_hymn_search
 layout activity_pdf_screen
+layout activity_view_songs
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

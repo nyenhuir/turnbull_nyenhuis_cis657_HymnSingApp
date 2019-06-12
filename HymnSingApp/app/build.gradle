@@ -44,10 +44,10 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 //    implementation 'com.google.android.libraries.places:places:1.1.0'
 //    implementation 'com.borax12.materialdaterangepicker:library:1.9'
-//    implementation 'org.parceler:parceler:1.1.6'
-//    annotationProcessor 'org.parceler:parceler:1.1.6'
-//    implementation 'com.jakewharton:butterknife:8.4.0'
-//    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    implementation 'org.parceler:parceler:1.1.6'
+    annotationProcessor 'org.parceler:parceler:1.1.6'
+    implementation 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 //    implementation 'com.google.firebase:firebase-database:16.1.0'
 }
 

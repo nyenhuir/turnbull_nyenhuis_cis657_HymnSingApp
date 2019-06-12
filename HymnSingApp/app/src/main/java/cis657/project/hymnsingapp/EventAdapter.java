@@ -41,9 +41,7 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> 
         holder.mItem = this.mValues.get(position);
         holder.mP1.setText("Title: " + holder.mItem.name );
         holder.mP2.setText("Location: " + holder.mItem.location );
-        DateTimeFormatter fmt = DateTimeFormat.forPattern("MM-dd-yyyy");
-        holder.mDateTime.setText(fmt.print(holder.mItem.timestamp));
-
+        holder.mDateTime.setText("Date: " + holder.mItem.date);
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
