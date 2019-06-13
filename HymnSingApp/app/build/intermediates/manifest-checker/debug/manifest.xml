@@ -25,9 +25,8 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="cis657.project.hymnsingapp.SongPickerActivity" />
         <activity android:name="cis657.project.hymnsingapp.BulletinActivity" />
-        <activity android:name="cis657.project.hymnsingapp.ViewSongsActivity" />
+        <activity android:name="cis657.project.hymnsingapp.AllSongsActivity" />
         <activity android:name="cis657.project.hymnsingapp.CreateEventActivity" />
         <activity android:name="cis657.project.hymnsingapp.HomeScreenActivity" >
             <intent-filter>
@@ -47,12 +46,24 @@
         </activity>
         <activity android:name="cis657.project.hymnsingapp.MainActivity" />
 
-        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

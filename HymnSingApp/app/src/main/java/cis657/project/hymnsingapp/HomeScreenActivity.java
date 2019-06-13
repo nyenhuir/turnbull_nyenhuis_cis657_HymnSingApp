@@ -2,7 +2,6 @@ package cis657.project.hymnsingapp;
 
 import android.content.Intent;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
@@ -13,14 +12,11 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import org.parceler.Parcels;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 //import cis657.project.hymnsingapp.dummy.EventFragmentContent;
 
@@ -35,13 +31,10 @@ public class HomeScreenActivity extends AppCompatActivity
     Button eventButton;
     Button songButton;
     Button bulletinButton;
-    public static RecyclerView recycleview;
+    RecyclerView recycleview;
 
     DatabaseReference topRef;
-    DatabaseReference songRef;
-    DatabaseReference topRef2;
     public static List<Event> allEvents;
-    public static List<Song> allSongs;
 
 
 
@@ -56,56 +49,8 @@ public class HomeScreenActivity extends AppCompatActivity
         bulletinButton = (Button) findViewById(R.id.bulletinButton);
         recycleview = (RecyclerView) findViewById(R.id.fragment);
 
-
-        topRef = FirebaseDatabase.getInstance().getReference().child("Event");
+//        topRef = FirebaseDatabase.getInstance().getReference();
         allEvents = new ArrayList<Event>();
-
-        songRef = FirebaseDatabase.getInstance().getReference().child("Sheet1");
-        allSongs = new ArrayList<Song>();
-        songRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                System.out.println("There are " + dataSnapshot.getChildrenCount()+"songs");
-                for(DataSnapshot eventSnapshot: dataSnapshot.getChildren()){
-                     HashMap<String,String> instring = (HashMap<String,String>)eventSnapshot.getValue();
-//                    inEvent._eventkey = dataSnapshot.getKey();
-//                    allEvents.add(inEvent);
-                    Song newsong = new Song();
-                    newsong.reference = eventSnapshot.child("reference").getValue().toString();
-                    newsong.title=eventSnapshot.getKey().toString();
-                    allSongs.add(newsong);
-                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
-
-
-        recycleview.getAdapter().notifyDataSetChanged();
-
-//        ArrayList<String> songList;
-//        songList = new ArrayList<String>();
-//
-//        songRef.addListenerForSingleValueEvent(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//                songList
-//
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError databaseError) {
-//
-//            }
-//        });
-
-
-
-//        songRef=topRef.child("String").getDatabase();
-//        System.out.println("SONGREF: "+songRef.);
 
 
 
@@ -121,7 +66,7 @@ public class HomeScreenActivity extends AppCompatActivity
         });
 
         songButton.setOnClickListener(y -> {
-            Intent newLocation = new Intent(HomeScreenActivity.this, ViewSongsActivity.class);
+            Intent newLocation = new Intent(HomeScreenActivity.this, AllSongsActivity.class);
             startActivityForResult(newLocation, SONG_RESULT);
         });
 
@@ -135,16 +80,16 @@ public class HomeScreenActivity extends AppCompatActivity
     public void onResume(){
         super.onResume();
         allEvents.clear();
-        topRef = FirebaseDatabase.getInstance().getReference().child("Event");
-        topRef.addChildEventListener (chEvListener);
+//        topRef = FirebaseDatabase.getInstance().getReference();
+//        topRef.addChildEventListener (chEvListener);
         recycleview.getAdapter().notifyDataSetChanged();
-//        topRef.addValueEventListener(valEvListener);
+        //topRef.addValueEventListener(valEvListener);
     }
 
     @Override
     public void onPause(){
         super.onPause();
-        topRef.removeEventListener(chEvListener);
+//        topRef.removeEventListener(chEvListener);
     }
 
     //If a result is returned, this function is activated and stores the returned data
@@ -153,29 +98,25 @@ public class HomeScreenActivity extends AppCompatActivity
         String nextScreen ="";
 
         if(resultCode == EVENT_RESULT) {
-            if (data != null && data.hasExtra("next")) {
+            if(data!=null && data.hasExtra("next")&&data.hasExtra("event")) {
                 nextScreen = data.getStringExtra("next");
-                if (data.hasExtra("event")) {
-                    Parcelable parcel = data.getParcelableExtra("event");
-                    Event e = Parcels.unwrap(parcel);
+                Parcelable parcel = data.getParcelableExtra("event");
+                Event e = Parcels.unwrap(parcel);
 //                EventContent.EventItem item = new EventContent.EventItem(e.title,
 //                        e.location, e.time, e.date);
 //                EventContent.addItem(item);
-                    Event eventEntry = new Event();
-                    eventEntry.setTitle(e.title);
-                    eventEntry.setLocation(e.location);
-                    eventEntry.setTime(e.time);
-                    eventEntry.setDate(e.date);
-                    eventEntry.set_eventkey(e.date);
-                    eventEntry.setSongs(e.songs);
-                    topRef.push().setValue(eventEntry);
-//                    topRef.push().setValue(eventEntry);
-                    recycleview.getAdapter().notifyDataSetChanged();
+                Event eventEntry = new Event();
+                eventEntry.setTitle(e.title);
+                eventEntry.setLocation(e.location);
+                eventEntry.setTime(e.time);
+                eventEntry.setDate(e.date);
+//                topRef.child("Event").push().setValue(eventEntry);
+//                topRef.push().setValue(eventEntry);
+//                recycleview.getAdapter().notifyDataSetChanged();
+
                 }
-
-
                 if (nextScreen.contentEquals("song")) {
-                    Intent newLocation = new Intent(HomeScreenActivity.this, ViewSongsActivity.class);
+                    Intent newLocation = new Intent(HomeScreenActivity.this, AllSongsActivity.class);
                     startActivityForResult(newLocation, SONG_RESULT);
                 }
 
@@ -184,7 +125,7 @@ public class HomeScreenActivity extends AppCompatActivity
                     startActivityForResult(newLocation, BULLETIN_RESULT);
                 }
             }
-        }
+
         else if (resultCode == SONG_RESULT) {
         }
         else if (resultCode == BULLETIN_RESULT) {
@@ -216,12 +157,11 @@ public class HomeScreenActivity extends AppCompatActivity
 
         @Override
         public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-
+            System.out.println("\n\n\nLISTINING"+allEvents.size());
             Event entry = (Event) dataSnapshot.getValue(Event.class);
             entry._eventkey = dataSnapshot.getKey();
             allEvents.add(entry);
-            System.out.println("\n\n\nLISTINING: alleventsSize: "+allEvents.size()+" at "+entry._eventkey);
-
+            recycleview.getAdapter().notifyDataSetChanged();
         }
 
         @Override
@@ -254,6 +194,4 @@ public class HomeScreenActivity extends AppCompatActivity
 
         }
     };
-
-
 }

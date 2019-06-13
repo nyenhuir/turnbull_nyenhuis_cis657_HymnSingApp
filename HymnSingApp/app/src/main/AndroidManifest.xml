@@ -12,10 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ShowEventActivity"></activity>
-        <activity android:name=".SongPickerActivity" />
-        <activity android:name=".BulletinActivity" />
-        <activity android:name=".ViewSongsActivity" />
+        <activity android:name=".BulletinActivity"></activity>
+        <activity android:name=".AllSongsActivity" />
         <activity android:name=".CreateEventActivity" />
         <activity android:name=".HomeScreenActivity">
             <intent-filter>

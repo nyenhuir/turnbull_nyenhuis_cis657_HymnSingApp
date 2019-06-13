@@ -2,20 +2,9 @@ package cis657.project.hymnsingapp;
 
 import org.parceler.Parcel;
 
-import java.util.List;
-
 @Parcel
 public class Event {
     String title,location,time,date,_eventkey;
-    List<String> songs;
-
-    public List<String> getSongs() {
-        return songs;
-    }
-
-    public void setSongs(List<String> songs) {
-        this.songs = songs;
-    }
 
     public String getTitle() {
         return title;
