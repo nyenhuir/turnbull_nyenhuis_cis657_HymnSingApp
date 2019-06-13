@@ -15,7 +15,7 @@
     ]]>
 
     <TextView
-        android:id="@+id/p1"
+        android:id="@+id/title"
         android:layout_width="411dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
@@ -27,13 +27,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/p2" />
+        app:layout_constraintTop_toBottomOf="@+id/location" />
 
     <TextView
-        android:id="@+id/p2"
+        android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="32dp"
         android:text="Location"
         android:textAlignment="center"
         android:textAppearance="?attr/textAppearanceListItem"
@@ -47,7 +47,7 @@
         android:id="@+id/timestamp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="32dp"
         android:text="date of hymnsing"
         android:textAlignment="center"
         android:textAppearance="?attr/textAppearanceListItem"
@@ -55,6 +55,20 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/p1" />
+        app:layout_constraintTop_toBottomOf="@+id/time" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Time"
+        android:textAlignment="center"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
 
 </android.support.constraint.ConstraintLayout>

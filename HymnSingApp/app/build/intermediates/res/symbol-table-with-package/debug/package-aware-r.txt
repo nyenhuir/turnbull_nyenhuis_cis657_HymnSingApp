@@ -1099,6 +1099,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addsong
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1162,6 +1163,9 @@ id filled
 id fixed
 id forever
 id fragment
+id fragment2
+id fragment3
+id fragment5
 id ghost_view
 id gone
 id group_divider
@@ -1189,6 +1193,7 @@ id list
 id listMode
 id list_item
 id loc
+id location
 id masked
 id media_actions
 id message
@@ -1206,8 +1211,6 @@ id notification_main_column
 id notification_main_column_container
 id organizationButton
 id outline
-id p1
-id p2
 id packed
 id parallax
 id parent
@@ -1253,6 +1256,8 @@ id snackbar_text
 id snap
 id snapMargins
 id songButton
+id songTitle
+id songtext
 id spacer
 id split_action_bar
 id spread
@@ -1358,6 +1363,7 @@ layout activity_create_event
 layout activity_home_screen
 layout activity_hymn_search
 layout activity_pdf_screen
+layout activity_song_picker
 layout activity_view_songs
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1375,6 +1381,10 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout fragment_event
 layout fragment_event_list
+layout fragment_playlist
+layout fragment_playlist_list
+layout fragment_song
+layout fragment_song_list
 layout list_section_header
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include

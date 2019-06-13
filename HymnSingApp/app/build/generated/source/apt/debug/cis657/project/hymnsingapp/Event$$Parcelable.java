@@ -1,6 +1,8 @@
 
 package cis657.project.hymnsingapp;
 
+import java.util.ArrayList;
+import java.util.List;
 import android.os.Parcelable;
 import android.os.Parcelable.Creator;
 import org.parceler.Generated;
@@ -8,7 +10,7 @@ import org.parceler.IdentityCollection;
 import org.parceler.ParcelWrapper;
 import org.parceler.ParcelerRuntimeException;
 
-@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2019-06-12T17:58-0400")
+@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2019-06-13T12:56-0400")
 @SuppressWarnings({
     "unchecked",
     "deprecation"
@@ -51,6 +53,14 @@ public class Event$$Parcelable
         } else {
             parcel$$1 .writeInt(identityMap$$0 .put(event$$1));
             parcel$$1 .writeString(event$$1 .date);
+            if (event$$1 .songs == null) {
+                parcel$$1 .writeInt(-1);
+            } else {
+                parcel$$1 .writeInt(event$$1 .songs.size());
+                for (java.lang.String string$$0 : ((List<java.lang.String> ) event$$1 .songs)) {
+                    parcel$$1 .writeString(string$$0);
+                }
+            }
             parcel$$1 .writeString(event$$1 .location);
             parcel$$1 .writeString(event$$1 .time);
             parcel$$1 .writeString(event$$1 .title);
@@ -81,6 +91,17 @@ public class Event$$Parcelable
             event$$4 = new cis657.project.hymnsingapp.Event();
             identityMap$$1 .put(reservation$$0, event$$4);
             event$$4 .date = parcel$$3 .readString();
+            int int$$0 = parcel$$3 .readInt();
+            ArrayList<java.lang.String> list$$0;
+            if (int$$0 < 0) {
+                list$$0 = null;
+            } else {
+                list$$0 = new ArrayList<java.lang.String>(int$$0);
+                for (int int$$1 = 0; (int$$1 <int$$0); int$$1 ++) {
+                    list$$0 .add(parcel$$3 .readString());
+                }
+            }
+            event$$4 .songs = list$$0;
             event$$4 .location = parcel$$3 .readString();
             event$$4 .time = parcel$$3 .readString();
             event$$4 .title = parcel$$3 .readString();

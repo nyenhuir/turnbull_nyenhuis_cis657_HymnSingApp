@@ -6,9 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
-
 import cis657.project.hymnsingapp.EventFragment.OnListFragmentInteractionListener;
 //import cis657.project.hymnsingapp.dummy.EventContent.EventItem;
 
@@ -39,11 +36,12 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
-        if(holder.mItem!=null) {
-            holder.mItem = this.mValues.get(position);
-            holder.mP1.setText("Title: " + holder.mItem.title);
-            holder.mP2.setText("Location: " + holder.mItem.location);
-            holder.mDateTime.setText("Date: " + holder.mItem.date);
+        holder.mItem = mValues.get(position);
+        holder.title.setText("Title: " + mValues.get(position).title);
+        holder.location.setText("Location: " + mValues.get(position).location);
+        holder.mDateTime.setText("Date: " + mValues.get(position).date);
+        holder.time.setText("Time: " + mValues.get(position).time);
+
             holder.mView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -54,7 +52,6 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> 
                     }
                 }
             });
-        }
     }
 
     @Override
@@ -65,16 +62,18 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> 
 
     public class ViewHolder extends RecyclerView.ViewHolder{
         public final View mView;
-        public final TextView mP1;
-        public final TextView mP2;
+        public final TextView title;
+        public final TextView location;
+        public final TextView time;
         public final TextView mDateTime;
         public Event mItem;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            mP1 = (TextView) view.findViewById(R.id.p1);
-            mP2 = (TextView) view.findViewById(R.id.p2);
+            title = (TextView) view.findViewById(R.id.title);
+            location = (TextView) view.findViewById(R.id.location);
+            time = (TextView) view.findViewById(R.id.time);
             mDateTime = (TextView) view.findViewById(R.id.timestamp);
         }
 

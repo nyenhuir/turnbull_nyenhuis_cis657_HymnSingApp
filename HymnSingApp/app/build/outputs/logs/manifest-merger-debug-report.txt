@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-39:12
 MERGED from [com.android.support:design:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/a5381f35e61c92cb85af2ea1f695791d/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/58067d1fe3d7bb6d6a6405748f5e79aa/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/231f2608a428346077bdb8ff00a5c715/AndroidManifest.xml:2:1-11:12
@@ -45,20 +45,20 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/nyenhuir/.gradle/cach
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/9674686109a2b81b8edaa2aca596677e/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/e5fe4cc89e7c5a48c5fe931e6db4d877/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/6bb1825144f759bf8ab47700ef7cbfcf/AndroidManifest.xml:2:1-7:12
-INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-37:12
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-39:12
 		INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-37:12
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:1-39:12
 		INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:2:11-69
@@ -69,7 +69,7 @@ MERGED from [com.google.firebase:firebase-database:16.1.0] /Users/nyenhuir/.grad
 	android:name
 		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:7:5-35:19
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:7:5-37:19
 MERGED from [com.android.support:design:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/a5381f35e61c92cb85af2ea1f695791d/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/a5381f35e61c92cb85af2ea1f695791d/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/231f2608a428346077bdb8ff00a5c715/AndroidManifest.xml:9:5-20
@@ -104,52 +104,60 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nyenhuir/.gr
 		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:13:9-40
 	android:usesCleartextTraffic
 		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:14:9-44
+activity#cis657.project.hymnsingapp.ShowEventActivity
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:15:9-64
+	android:name
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:15:19-52
+activity#cis657.project.hymnsingapp.SongPickerActivity
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:16:9-56
+	android:name
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:16:19-53
 activity#cis657.project.hymnsingapp.BulletinActivity
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:15:9-63
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:17:9-54
 	android:name
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:15:19-51
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:17:19-51
 activity#cis657.project.hymnsingapp.ViewSongsActivity
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:16:9-55
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:18:9-55
 	android:name
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:16:19-52
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:18:19-52
 activity#cis657.project.hymnsingapp.CreateEventActivity
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:17:9-57
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:19:9-57
 	android:name
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:17:19-54
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:19:19-54
 activity#cis657.project.hymnsingapp.HomeScreenActivity
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:18:9-24:20
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:18:19-53
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:20:19-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:24:27-74
 activity#cis657.project.hymnsingapp.PdfScreen
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:27:9-35:20
 	android:parentActivityName
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:28:13-55
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:30:13-55
 	android:label
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:27:13-62
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:29:13-62
 	android:theme
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:29:13-56
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:26:13-38
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:28:13-38
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:30:13-32:75
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:32:13-34:75
 	android:value
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:32:17-72
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:34:17-72
 	android:name
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:31:17-63
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:33:17-63
 activity#cis657.project.hymnsingapp.MainActivity
-ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:34:9-50
+ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:36:9-50
 	android:name
-		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:34:19-47
+		ADDED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml:36:19-47
 uses-sdk
 INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/src/main/AndroidManifest.xml

@@ -22,6 +22,7 @@ public class PdfScreen extends AppCompatActivity {
         setContentView(R.layout.activity_pdf_screen);
         String s = getIntent().getStringExtra("n1");
         url = url + s;
+        System.out.println("URL: "+url);
         WebView wv = (WebView) findViewById(R.id.the_webview);
 
         wv.setWebViewClient(new WebViewClient() {

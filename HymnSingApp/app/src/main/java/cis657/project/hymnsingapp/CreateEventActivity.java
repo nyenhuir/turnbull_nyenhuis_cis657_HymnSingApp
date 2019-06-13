@@ -7,6 +7,7 @@ import android.os.Parcelable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -24,13 +25,16 @@ import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.parceler.Parcels;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class CreateEventActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
+public class CreateEventActivity extends AppCompatActivity
+        implements DatePickerDialog.OnDateSetListener, MakePlaylistFragment.OnListFragmentInteractionListener {
 
     @BindView(R.id.eventLoc)
     EditText eventLocation;
@@ -46,11 +50,15 @@ public class CreateEventActivity extends AppCompatActivity implements DatePicker
     Button eventButton;
     Button songButton;
     Button bulletinButton;
+    Button addSongButton;
     FloatingActionButton fab;
+    public static RecyclerView recycleview;
 
+    public static int PICKER_RESULT = 1;
 
     private DateTime eventDate;
     private DatePickerDialog dpDialog;
+    public static List<String> songlist;
 
 
     @Override
@@ -70,8 +78,15 @@ public class CreateEventActivity extends AppCompatActivity implements DatePicker
         eventButton = (Button) findViewById(R.id.organizationButton);
         songButton = (Button) findViewById(R.id.songButton);
         bulletinButton = (Button) findViewById(R.id.bulletinButton);
+        addSongButton = (Button) findViewById(R.id.addsong);
         fab = (FloatingActionButton) findViewById(R.id.fab);
+        recycleview = (RecyclerView) findViewById(R.id.fragment);
+        songlist = new ArrayList<String>();
 
+        addSongButton.setOnClickListener(y -> {
+            Intent newLocation = new Intent(CreateEventActivity.this, SongPickerActivity.class);
+            startActivityForResult(newLocation, PICKER_RESULT);
+        });
 
         homeButton.setOnClickListener(y -> {
 
@@ -104,6 +119,14 @@ public class CreateEventActivity extends AppCompatActivity implements DatePicker
             //Exits window
             finish();
         });
+        bulletinButton.setOnClickListener(y -> {
+            Intent intent = new Intent();
+            intent.putExtra("next","bulletin");
+            //Returns to main
+            setResult(HomeScreenActivity.EVENT_RESULT,intent);
+            //Exits window
+            finish();
+        });
     }
 
     @OnClick(R.id.fab)
@@ -116,9 +139,11 @@ public class CreateEventActivity extends AppCompatActivity implements DatePicker
             newEvent.time = eventTime.getText().toString();
             DateTimeFormatter fmt = DateTimeFormat.forPattern("MM-dd-yyyy");
             newEvent.date = fmt.print(eventDate);
+            newEvent.songs = this.songlist;
             Parcelable parcel = Parcels.wrap(newEvent);
             result.putExtra("event", parcel);
             result.putExtra("next","home");
+            HomeScreenActivity.recycleview.getAdapter().notifyDataSetChanged();
             setResult(HomeScreenActivity.EVENT_RESULT,result);
             finish();
         }
@@ -127,6 +152,23 @@ public class CreateEventActivity extends AppCompatActivity implements DatePicker
                     Snackbar.LENGTH_LONG).show();
         }
 
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        String songpick ="";
+
+        if(resultCode == PICKER_RESULT) {
+            if (data != null && data.hasExtra("songpick")) {
+                songpick = data.getStringExtra("songpick");
+                songlist.add(songpick);
+
+                }
+            }
+        else
+            super.onActivityResult(requestCode, resultCode, data);
+
+        recycleview.getAdapter().notifyDataSetChanged();
     }
 
     @OnClick({R.id.date})
@@ -151,5 +193,10 @@ public class CreateEventActivity extends AppCompatActivity implements DatePicker
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
         eventDate = new DateTime(year, month + 1, dayOfMonth, 0, 0);
         eventDateView.setText(formatted(eventDate));
+    }
+
+    @Override
+    public void onListFragmentInteraction(String item) {
+
     }
 }

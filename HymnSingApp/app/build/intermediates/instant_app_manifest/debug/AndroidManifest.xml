@@ -23,9 +23,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="cis657.project.hymnsingapp.ShowEventActivity" />
+        <activity android:name="cis657.project.hymnsingapp.SongPickerActivity" />
         <activity android:name="cis657.project.hymnsingapp.BulletinActivity" />
         <activity android:name="cis657.project.hymnsingapp.ViewSongsActivity" />
         <activity android:name="cis657.project.hymnsingapp.CreateEventActivity" />
@@ -67,11 +68,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="cis657.project.hymnsingapp.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

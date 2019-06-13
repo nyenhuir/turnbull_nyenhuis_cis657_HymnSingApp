@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 
 //import cis657.project.hymnsingapp.dummy.EventContent.EventItem;
 
+import org.parceler.transfuse.annotations.OnResume;
+
 import java.util.List;
 
 import cis657.project.hymnsingapp.EventAdapter;
@@ -29,7 +31,7 @@ public class EventFragment extends Fragment {
     private static final String ARG_COLUMN_COUNT = "column-count";
     // TODO: Customize parameters
     private int mColumnCount = 1;
-    private OnListFragmentInteractionListener mListener;
+    public static OnListFragmentInteractionListener mListener;
     List<Event> allEvents;
 
 
