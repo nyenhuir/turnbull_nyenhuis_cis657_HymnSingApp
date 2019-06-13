@@ -25,6 +25,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="cis657.project.hymnsingapp.ShowEventActivity" />
         <activity android:name="cis657.project.hymnsingapp.SongPickerActivity" />
         <activity android:name="cis657.project.hymnsingapp.BulletinActivity" />
         <activity android:name="cis657.project.hymnsingapp.ViewSongsActivity" />

@@ -18,11 +18,12 @@ import java.util.List;
  */
 public class ShowPlaylistAdapter extends RecyclerView.Adapter<ShowPlaylistAdapter.ViewHolder> {
 
-    private final List<DummyItem> mValues;
-    private final OnListFragmentInteractionListener mListener;
+    private final List<String> mValues;
+    private final ShowPlaylistFragment.OnListFragmentInteractionListener mListener;
 
-    public ShowPlaylistAdapter(List<DummyItem> items, OnListFragmentInteractionListener listener) {
+    public ShowPlaylistAdapter(List<String> items, ShowPlaylistFragment.OnListFragmentInteractionListener listener) {
         mValues = items;
+        //System.out.println("\n\n\n\nMVALUES: "+mValues.size());
         mListener = listener;
     }
 
@@ -36,8 +37,7 @@ public class ShowPlaylistAdapter extends RecyclerView.Adapter<ShowPlaylistAdapte
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        holder.mIdView.setText(mValues.get(position).id);
-        holder.mContentView.setText(mValues.get(position).content);
+        holder.title.setText(mValues.get(position));
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,25 +53,24 @@ public class ShowPlaylistAdapter extends RecyclerView.Adapter<ShowPlaylistAdapte
 
     @Override
     public int getItemCount() {
+        if(mValues==null) return 0;
         return mValues.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder{
         public final View mView;
-        public final TextView mIdView;
-        public final TextView mContentView;
-        public DummyItem mItem;
+        public final TextView title;
+        public String mItem;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            mIdView = (TextView) view.findViewById(R.id.item_number);
-            mContentView = (TextView) view.findViewById(R.id.content);
+            title = (TextView) view.findViewById(R.id.songTitle);
         }
 
         @Override
         public String toString() {
-            return super.toString() + " '" + mContentView.getText() + "'";
+            return super.toString() + " '" +  "'";
         }
     }
 }

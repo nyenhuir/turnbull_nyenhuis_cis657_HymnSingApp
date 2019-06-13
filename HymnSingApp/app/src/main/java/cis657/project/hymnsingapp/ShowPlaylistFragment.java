@@ -3,12 +3,15 @@ package cis657.project.hymnsingapp;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.List;
 
 import cis657.project.hymnsingapp.dummy.DummyContent;
 import cis657.project.hymnsingapp.dummy.DummyContent.DummyItem;
@@ -25,13 +28,16 @@ public class ShowPlaylistFragment extends Fragment {
     private static final String ARG_COLUMN_COUNT = "column-count";
     // TODO: Customize parameters
     private int mColumnCount = 1;
-    private OnListFragmentInteractionListener mListener;
+    public static OnListFragmentInteractionListener mListener;
+    List<String> playlistSongs;
+
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
     public ShowPlaylistFragment() {
+        playlistSongs = ShowEventActivity.songlist;
     }
 
     // TODO: Customize parameter initialization
@@ -51,6 +57,7 @@ public class ShowPlaylistFragment extends Fragment {
         if (getArguments() != null) {
             mColumnCount = getArguments().getInt(ARG_COLUMN_COUNT);
         }
+        playlistSongs = ShowEventActivity.songlist;
     }
 
     @Override
@@ -62,12 +69,16 @@ public class ShowPlaylistFragment extends Fragment {
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
             RecyclerView recyclerView = (RecyclerView) view;
+            DividerItemDecoration did = new DividerItemDecoration(recyclerView.getContext(),
+                    DividerItemDecoration.VERTICAL);
+            recyclerView.addItemDecoration(did);
+
             if (mColumnCount <= 1) {
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new ShowPlaylistAdapter(DummyContent.ITEMS, mListener));
+            recyclerView.setAdapter(new ShowPlaylistAdapter(playlistSongs, mListener));
         }
         return view;
     }
@@ -102,6 +113,6 @@ public class ShowPlaylistFragment extends Fragment {
      */
     public interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onListFragmentInteraction(DummyItem item);
+        void onListFragmentInteraction(String item);
     }
 }
