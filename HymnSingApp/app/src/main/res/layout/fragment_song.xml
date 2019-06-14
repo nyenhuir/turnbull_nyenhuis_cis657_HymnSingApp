@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/songTitle"
+        android:id="@+id/songTitle2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Song Title"

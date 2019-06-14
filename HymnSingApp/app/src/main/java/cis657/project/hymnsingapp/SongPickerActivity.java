@@ -1,8 +1,13 @@
 package cis657.project.hymnsingapp;
 
 import android.content.Intent;
+import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
+import org.parceler.Parcels;
 
 public class SongPickerActivity extends AppCompatActivity
         implements SongFragment.OnListFragmentInteractionListener  {
@@ -15,10 +20,12 @@ public class SongPickerActivity extends AppCompatActivity
 
     @Override
     public void onListFragmentInteraction(Song item) {
-        Intent intent = new Intent();
-        intent.putExtra("songpick",item.title);
+        Intent result = new Intent();
+
+        Parcelable parcel = Parcels.wrap(item);
+        result.putExtra("songpick", parcel);
         //Returns to main
-        setResult(CreateEventActivity.PICKER_RESULT,intent);
+        setResult(CreateEventActivity.PICKER_RESULT,result);
         //Exits window
         finish();
     }

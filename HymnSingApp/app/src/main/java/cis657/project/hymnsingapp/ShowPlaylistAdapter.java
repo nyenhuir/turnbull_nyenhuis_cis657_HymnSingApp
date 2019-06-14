@@ -18,10 +18,10 @@ import java.util.List;
  */
 public class ShowPlaylistAdapter extends RecyclerView.Adapter<ShowPlaylistAdapter.ViewHolder> {
 
-    private final List<String> mValues;
+    private final List<Song> mValues;
     private final ShowPlaylistFragment.OnListFragmentInteractionListener mListener;
 
-    public ShowPlaylistAdapter(List<String> items, ShowPlaylistFragment.OnListFragmentInteractionListener listener) {
+    public ShowPlaylistAdapter(List<Song> items, ShowPlaylistFragment.OnListFragmentInteractionListener listener) {
         mValues = items;
         //System.out.println("\n\n\n\nMVALUES: "+mValues.size());
         mListener = listener;
@@ -37,7 +37,7 @@ public class ShowPlaylistAdapter extends RecyclerView.Adapter<ShowPlaylistAdapte
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        holder.title.setText(mValues.get(position));
+        holder.title.setText(mValues.get(position).title);
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,12 +60,12 @@ public class ShowPlaylistAdapter extends RecyclerView.Adapter<ShowPlaylistAdapte
     public class ViewHolder extends RecyclerView.ViewHolder{
         public final View mView;
         public final TextView title;
-        public String mItem;
+        public Song mItem;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            title = (TextView) view.findViewById(R.id.songTitle);
+            title = (TextView) view.findViewById(R.id.songTitle2);
         }
 
         @Override

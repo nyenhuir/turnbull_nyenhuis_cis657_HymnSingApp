@@ -58,12 +58,13 @@ public class CreateEventActivity extends AppCompatActivity
 
     private DateTime eventDate;
     private DatePickerDialog dpDialog;
-    public static List<String> songlist;
+    public static List<Song> songlist;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        songlist = new ArrayList<Song>();
         setContentView(R.layout.activity_create_event);
 
         ButterKnife.bind(this);
@@ -81,8 +82,18 @@ public class CreateEventActivity extends AppCompatActivity
         addSongButton = (Button) findViewById(R.id.addsong);
         fab = (FloatingActionButton) findViewById(R.id.fab);
         recycleview = (RecyclerView) findViewById(R.id.fragment);
-        songlist = new ArrayList<String>();
 
+
+//        Intent receiveintent = getIntent();
+//        if(receiveintent.hasExtra("fromprevious")){
+//            Parcelable parcel = receiveintent.getParcelableExtra("fromprevious");
+//            Event e = Parcels.unwrap(parcel);
+//            this.eventLocation.setText(e.location);
+//            this.eventTime.setText(e.time);
+//            this.eventTitle.setText(e.title);
+//            this.eventDateView.setText(e.date);
+//            this.songlist=e.songs;
+//        }
         addSongButton.setOnClickListener(y -> {
             Intent newLocation = new Intent(CreateEventActivity.this, SongPickerActivity.class);
             startActivityForResult(newLocation, PICKER_RESULT);
@@ -141,9 +152,8 @@ public class CreateEventActivity extends AppCompatActivity
             newEvent.date = fmt.print(eventDate);
             newEvent.songs = this.songlist;
             Parcelable parcel = Parcels.wrap(newEvent);
-            result.putExtra("event", parcel);
             result.putExtra("next","home");
-            HomeScreenActivity.recycleview.getAdapter().notifyDataSetChanged();
+            result.putExtra("event", parcel);
             setResult(HomeScreenActivity.EVENT_RESULT,result);
             finish();
         }
@@ -159,9 +169,10 @@ public class CreateEventActivity extends AppCompatActivity
         String songpick ="";
 
         if(resultCode == PICKER_RESULT) {
-            if (data != null && data.hasExtra("songpick")) {
-                songpick = data.getStringExtra("songpick");
-                songlist.add(songpick);
+            if (data.hasExtra("songpick")) {
+                Parcelable parcel = data.getParcelableExtra("songpick");
+                Song e = Parcels.unwrap(parcel);
+                songlist.add(e);
 
                 }
             }
@@ -196,7 +207,7 @@ public class CreateEventActivity extends AppCompatActivity
     }
 
     @Override
-    public void onListFragmentInteraction(String item) {
+    public void onListFragmentInteraction(Song item) {
 
     }
 }

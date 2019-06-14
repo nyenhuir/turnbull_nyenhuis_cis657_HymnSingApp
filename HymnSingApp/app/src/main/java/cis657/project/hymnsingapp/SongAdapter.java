@@ -65,7 +65,7 @@ public class SongAdapter extends RecyclerView.Adapter<SongAdapter.ViewHolder> {
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            title = (TextView) view.findViewById(R.id.songTitle);
+            title = (TextView) view.findViewById(R.id.songTitle2);
         }
 
         @Override

@@ -4,6 +4,7 @@ package cis657.project.hymnsingapp;
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
@@ -21,6 +22,7 @@ public class ShowEventActivity_ViewBinding<T extends ShowEventActivity> implemen
     target.eventTitle = Utils.findRequiredViewAsType(source, R.id.Title, "field 'eventTitle'", TextView.class);
     target.eventTime = Utils.findRequiredViewAsType(source, R.id.Time, "field 'eventTime'", TextView.class);
     target.eventDate = Utils.findRequiredViewAsType(source, R.id.Date, "field 'eventDate'", TextView.class);
+    target.editButton = Utils.findRequiredViewAsType(source, R.id.editbutton, "field 'editButton'", Button.class);
   }
 
   @Override
@@ -33,6 +35,7 @@ public class ShowEventActivity_ViewBinding<T extends ShowEventActivity> implemen
     target.eventTitle = null;
     target.eventTime = null;
     target.eventDate = null;
+    target.editButton = null;
 
     this.target = null;
   }

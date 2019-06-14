@@ -26,7 +26,7 @@ public class MakePlaylistFragment extends Fragment {
     // TODO: Customize parameters
     private int mColumnCount = 1;
     public static OnListFragmentInteractionListener mListener;
-    List<String> playlistSongs;
+    List<Song> playlistSongs;
 
 
     /**
@@ -110,6 +110,6 @@ public class MakePlaylistFragment extends Fragment {
      */
     public interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onListFragmentInteraction(String item);
+        void onListFragmentInteraction(Song item);
     }
 }

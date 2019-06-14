@@ -48,6 +48,8 @@ public class HomeScreenActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        allEvents = new ArrayList<Event>();
+
         setContentView(R.layout.activity_home_screen);
 
         homeButton = (Button) findViewById(R.id.homeButton);
@@ -58,7 +60,6 @@ public class HomeScreenActivity extends AppCompatActivity
 
 
         topRef = FirebaseDatabase.getInstance().getReference().child("Event");
-        allEvents = new ArrayList<Event>();
 
         songRef = FirebaseDatabase.getInstance().getReference().child("Sheet1");
         allSongs = new ArrayList<Song>();
@@ -111,7 +112,10 @@ public class HomeScreenActivity extends AppCompatActivity
 
 
         homeButton.setOnClickListener(y -> {
-//            System.out.println(FirebaseDatabase.getInstance);
+
+            Intent newLocation = new Intent(HomeScreenActivity.this, HomeScreenActivity.class);
+            startActivity(newLocation);
+            finish();
 
         });
 
@@ -169,6 +173,7 @@ public class HomeScreenActivity extends AppCompatActivity
                     eventEntry.set_eventkey(e.date);
                     eventEntry.setSongs(e.songs);
                     topRef.push().setValue(eventEntry);
+
 //                    topRef.push().setValue(eventEntry);
                     recycleview.getAdapter().notifyDataSetChanged();
                 }
@@ -183,12 +188,37 @@ public class HomeScreenActivity extends AppCompatActivity
                     Intent newLocation = new Intent(HomeScreenActivity.this, BulletinActivity.class);
                     startActivityForResult(newLocation, BULLETIN_RESULT);
                 }
+
             }
         }
         else if (resultCode == SONG_RESULT) {
+            if (data != null && data.hasExtra("next")) {
+                nextScreen = data.getStringExtra("next");
+                if (nextScreen.contentEquals("event")) {
+                    Intent newLocation = new Intent(HomeScreenActivity.this, CreateEventActivity.class);
+                    startActivityForResult(newLocation, SONG_RESULT);
+                }
+
+
+                if (nextScreen.contentEquals("bulletin")) {
+                    Intent newLocation = new Intent(HomeScreenActivity.this, BulletinActivity.class);
+                    startActivityForResult(newLocation, BULLETIN_RESULT);
+                }
+            }
         }
         else if (resultCode == BULLETIN_RESULT) {
+            if (data != null && data.hasExtra("next")) {
+                nextScreen = data.getStringExtra("next");
+                if (nextScreen.contentEquals("song")) {
+                    Intent newLocation = new Intent(HomeScreenActivity.this, ViewSongsActivity.class);
+                    startActivityForResult(newLocation, SONG_RESULT);
+                }
 
+                if (nextScreen.contentEquals("event")) {
+                    Intent newLocation = new Intent(HomeScreenActivity.this, CreateEventActivity.class);
+                    startActivityForResult(newLocation, BULLETIN_RESULT);
+                }
+            }
             }
             else
                 super.onActivityResult(requestCode, resultCode, data);
@@ -212,6 +242,7 @@ public class HomeScreenActivity extends AppCompatActivity
 
     }
 
+//    int count=0;
     private ChildEventListener chEvListener = new ChildEventListener() {
 
         @Override
@@ -221,6 +252,13 @@ public class HomeScreenActivity extends AppCompatActivity
             entry._eventkey = dataSnapshot.getKey();
             allEvents.add(entry);
             System.out.println("\n\n\nLISTINING: alleventsSize: "+allEvents.size()+" at "+entry._eventkey);
+            System.out.println("From Homescreen: "+recycleview.getAdapter());
+            recycleview.getAdapter().notifyDataSetChanged();
+//            count++;
+//            if(count==3) {
+//                System.out.println("TRY TO FIND KEY: \nKEY: " + entry._eventkey);
+//                topRef.child(entry._eventkey).removeValue();
+//            }
 
         }
 

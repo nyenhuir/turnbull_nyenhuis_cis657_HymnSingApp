@@ -81,7 +81,11 @@ public class EventFragment extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new EventAdapter(allEvents, mListener));
+            EventAdapter ea = (new EventAdapter(allEvents, mListener));
+
+            recyclerView.setAdapter(ea);
+            System.out.println("From ADAPTER:"+ea);
+
         }
         return view;
     }

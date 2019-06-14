@@ -10,7 +10,7 @@ import org.parceler.IdentityCollection;
 import org.parceler.ParcelWrapper;
 import org.parceler.ParcelerRuntimeException;
 
-@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2019-06-13T15:48-0400")
+@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2019-06-13T20:51-0400")
 @SuppressWarnings({
     "unchecked",
     "deprecation"
@@ -57,8 +57,8 @@ public class Event$$Parcelable
                 parcel$$1 .writeInt(-1);
             } else {
                 parcel$$1 .writeInt(event$$1 .songs.size());
-                for (java.lang.String string$$0 : ((List<java.lang.String> ) event$$1 .songs)) {
-                    parcel$$1 .writeString(string$$0);
+                for (cis657.project.hymnsingapp.Song song$$0 : ((List<cis657.project.hymnsingapp.Song> ) event$$1 .songs)) {
+                    cis657.project.hymnsingapp.Song$$Parcelable.write(song$$0, parcel$$1, flags$$0, identityMap$$0);
                 }
             }
             parcel$$1 .writeString(event$$1 .location);
@@ -92,13 +92,14 @@ public class Event$$Parcelable
             identityMap$$1 .put(reservation$$0, event$$4);
             event$$4 .date = parcel$$3 .readString();
             int int$$0 = parcel$$3 .readInt();
-            ArrayList<java.lang.String> list$$0;
+            ArrayList<cis657.project.hymnsingapp.Song> list$$0;
             if (int$$0 < 0) {
                 list$$0 = null;
             } else {
-                list$$0 = new ArrayList<java.lang.String>(int$$0);
+                list$$0 = new ArrayList<cis657.project.hymnsingapp.Song>(int$$0);
                 for (int int$$1 = 0; (int$$1 <int$$0); int$$1 ++) {
-                    list$$0 .add(parcel$$3 .readString());
+                    cis657.project.hymnsingapp.Song song$$1 = cis657.project.hymnsingapp.Song$$Parcelable.read(parcel$$3, identityMap$$1);
+                    list$$0 .add(song$$1);
                 }
             }
             event$$4 .songs = list$$0;

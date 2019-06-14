@@ -7,13 +7,13 @@ import java.util.List;
 @Parcel
 public class Event {
     String title,location,time,date,_eventkey;
-    List<String> songs;
+    List<Song> songs;
 
-    public List<String> getSongs() {
+    public List<Song> getSongs() {
         return songs;
     }
 
-    public void setSongs(List<String> songs) {
+    public void setSongs(List<Song> songs) {
         this.songs = songs;
     }
 

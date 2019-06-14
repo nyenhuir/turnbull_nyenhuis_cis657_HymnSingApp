@@ -17,7 +17,7 @@ public class CreateEventActivity_ViewBinding<T extends CreateEventActivity> impl
 
   private View view2131230783;
 
-  private View view2131230807;
+  private View view2131230808;
 
   @UiThread
   public CreateEventActivity_ViewBinding(final T target, View source) {
@@ -37,7 +37,7 @@ public class CreateEventActivity_ViewBinding<T extends CreateEventActivity> impl
       }
     });
     view = Utils.findRequiredView(source, R.id.fab, "method 'FABPressed'");
-    view2131230807 = view;
+    view2131230808 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -59,8 +59,8 @@ public class CreateEventActivity_ViewBinding<T extends CreateEventActivity> impl
 
     view2131230783.setOnClickListener(null);
     view2131230783 = null;
-    view2131230807.setOnClickListener(null);
-    view2131230807 = null;
+    view2131230808.setOnClickListener(null);
+    view2131230808 = null;
 
     this.target = null;
   }

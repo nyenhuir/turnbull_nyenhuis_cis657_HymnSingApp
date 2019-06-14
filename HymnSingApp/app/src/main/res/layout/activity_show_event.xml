@@ -60,5 +60,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Date" />
+        app:layout_constraintTop_toBottomOf="@+id/Date"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/editbutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Edit Event"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fragment4"
+        app:layout_constraintStart_toStartOf="@+id/fragment4"
+        app:layout_constraintTop_toBottomOf="@+id/fragment4" />
 </android.support.constraint.ConstraintLayout>

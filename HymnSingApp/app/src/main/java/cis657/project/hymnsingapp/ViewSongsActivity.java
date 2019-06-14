@@ -18,6 +18,11 @@ import java.util.ArrayList;
 public class ViewSongsActivity extends AppCompatActivity
         implements SongFragment.OnListFragmentInteractionListener{
 
+    Button homeButton;
+    Button eventButton;
+    Button songButton;
+    Button bulletinButton;
+
     String siteUrl = "https://hymnary.org/text/";
     ArrayList<String> url = new ArrayList<String>();
 
@@ -25,11 +30,56 @@ public class ViewSongsActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_songs);
+        homeButton = (Button) findViewById(R.id.homeButton);
+        eventButton = (Button) findViewById(R.id.organizationButton);
+        songButton = (Button) findViewById(R.id.songButton);
+        bulletinButton = (Button) findViewById(R.id.bulletinButton);
+
+
+        homeButton.setOnClickListener(y -> {
+
+            Intent intent = new Intent();
+            intent.putExtra("next","home");
+            //Returns to main
+            setResult(HomeScreenActivity.SONG_RESULT,intent);
+            //Exits window
+            finish();
+        });
+
+        eventButton.setOnClickListener(y -> {
+            Intent intent = new Intent();
+            intent.putExtra("next","event");
+            //Returns to main
+            setResult(HomeScreenActivity.SONG_RESULT,intent);
+            //Exits window
+            finish();
+        });
+
+        songButton.setOnClickListener(y -> {
+
+        });
+
+        bulletinButton.setOnClickListener(y -> {
+            Intent intent = new Intent();
+            intent.putExtra("next","bulletin");
+            //Returns to main
+            setResult(HomeScreenActivity.SONG_RESULT,intent);
+            //Exits window
+            finish();
+        });
+
 
 
 
     }
 
+    @Override
+    public void onResume(){
+        super.onResume();
+        siteUrl = "https://hymnary.org/text/";
+        url = new ArrayList<String>();
+
+    }
 
     @Override
     public void onListFragmentInteraction(Song item) {
@@ -48,11 +98,11 @@ public class ViewSongsActivity extends AppCompatActivity
 
             try {
                 Document doc = Jsoup.connect(strings[0]).get();
-                Elements links = doc.select("a[ref]");
+                Elements links = doc.select("a[href]");
                 for (Element link : links) {
 
                     System.out.println(link.toString());
-                    if (link.text().contains("asfdljk;")) {
+                    if (link.text().equals("PDF")) {
                         String linkHref = link.attr("href");
                         String linkref = link.ownText();
                         buffer.append("Data [" + linkHref + "]");
@@ -76,6 +126,5 @@ public class ViewSongsActivity extends AppCompatActivity
             intent.putExtra("n1", url.get(0));
             startActivity(intent);
         }
-
     }
 }
