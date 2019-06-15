@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jemimaturnbull/Documents/CIS657/NEWFOLDER/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/Users/jemimaturnbull/Documents/CIS657/FOLDER/folder2/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/jemimaturnbull/.gradle/caches/transforms-2/files-2.1/ce0b758a35296d859fdad3f52449a4bf/res/values-v16/values-v16.xml",
+                    "source": "/Users/jemimaturnbull/.gradle/caches/transforms-2/files-2.1/1ad4e9e861271a85544933a3c17fc684/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jemimaturnbull/.gradle/caches/transforms-2/files-2.1/b1dd4398fc2f0c5a2ef01b1fb2913ee7/res/values-v16/values-v16.xml",
+                    "source": "/Users/jemimaturnbull/.gradle/caches/transforms-2/files-2.1/7b1c8b4225948beb42fb412f64d9a8da/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

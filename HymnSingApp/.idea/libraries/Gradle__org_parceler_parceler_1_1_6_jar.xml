@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.parceler:parceler:1.1.6@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.parceler/parceler/1.1.6/52c727f86dc1b805eb5c7ee8a5d13824be4b1ff1/parceler-1.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.parceler/parceler/1.1.6/d0e44b4def8bc9cbf0a85e40fd356306e1abd5db/parceler-1.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

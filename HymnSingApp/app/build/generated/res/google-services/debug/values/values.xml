@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">218957621132-bgm65frpdom72cr4ku7o2au13j740g4g.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://hymnsingapp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">218957621132</string>
+    <string name="google_api_key" translatable="false">AIzaSyCzslihvjtnZIky0tyoqAZSfdQUgcxknpc</string>
+    <string name="google_app_id" translatable="false">1:218957621132:android:b9af5ac7194e93e4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCzslihvjtnZIky0tyoqAZSfdQUgcxknpc</string>
+    <string name="google_storage_bucket" translatable="false">hymnsingapp.appspot.com</string>
+    <string name="project_id" translatable="false">hymnsingapp</string>
+</resources>

@@ -26,20 +26,20 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        final EditText edtUrl = (EditText) findViewById(R.id.edtURL);
-        Button btnGo = (Button) findViewById(R.id.btnGo);
-        RespText = (EditText) findViewById(R.id.edtResp);
-        btnGo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String siteUrl = edtUrl.getText().toString();
-                (new ParseURL()).execute(new String[]{siteUrl});
-
-
-            }
-        });
+        setContentView(R.layout.activity_hymn_search);
+//
+//        final EditText edtUrl = (EditText) findViewById(R.id.edtURL);
+//        Button btnGo = (Button) findViewById(R.id.btnGo);
+//        RespText = (EditText) findViewById(R.id.edtResp);
+//        btnGo.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                String siteUrl = edtUrl.getText().toString();
+//                (new ParseURL()).execute(new String[]{siteUrl});
+//
+//
+//            }
+//        });
 
     }
 

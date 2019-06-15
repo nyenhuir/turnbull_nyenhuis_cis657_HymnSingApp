@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "218957621132",
+    "firebase_url": "https://hymnsingapp.firebaseio.com",
+    "project_id": "hymnsingapp",
+    "storage_bucket": "hymnsingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218957621132:android:b9af5ac7194e93e4",
+        "android_client_info": {
+          "package_name": "cis657.project.hymnsingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218957621132-30ucmpcd3evjneqdvh65jugnqad6ld1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cis657.project.hymnsingapp",
+            "certificate_hash": "d3c7eeb52234dd15e20f74477a5752ba3fdcf000"
+          }
+        },
+        {
+          "client_id": "218957621132-bgm65frpdom72cr4ku7o2au13j740g4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzslihvjtnZIky0tyoqAZSfdQUgcxknpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218957621132-bgm65frpdom72cr4ku7o2au13j740g4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
