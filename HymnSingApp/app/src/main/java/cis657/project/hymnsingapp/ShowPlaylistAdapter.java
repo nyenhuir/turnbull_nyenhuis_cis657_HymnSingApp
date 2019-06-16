@@ -37,7 +37,7 @@ public class ShowPlaylistAdapter extends RecyclerView.Adapter<ShowPlaylistAdapte
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        holder.title.setText(mValues.get(position).title);
+        holder.title.setText(mValues.get(position).title.toUpperCase());
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override

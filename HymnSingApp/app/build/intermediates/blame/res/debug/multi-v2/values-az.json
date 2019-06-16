@@ -1,61 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
+            "outputFile": "C:\\Users\\nyenh\\Desktop\\turnbull_nyenhuis_cis657_HymnSingApp\\HymnSingApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
             "map": [
                 {
-                    "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/9f60fd41d38c700e89445556cf10955e/res/values-az/values-az.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "127",
-                        "startColumns": "4",
-                        "startOffsets": "10914",
-                        "endColumns": "100",
-                        "endOffsets": "11010"
-                    }
-                },
-                {
-                    "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/d62e38ca98a633745ddbaa66387ca048/res/values-az/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,352,539,670,778,983,1114,1260,1391,1616,1724,1904,2039,2242,2424,2514,2605",
-                        "endColumns": "106,186,130,107,204,130,145,130,224,107,179,134,202,181,89,90,105",
-                        "endOffsets": "351,538,669,777,982,1113,1259,1390,1615,1723,1903,2038,2241,2423,2513,2604,2710"
-                    },
-                    "to": {
-                        "startLines": "105,106,107,108,109,110,111,112,114,115,116,117,118,119,120,121,122",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "7680,7791,7978,8113,8225,8430,8565,8715,9071,9296,9408,9588,9727,9930,10116,10210,10305",
-                        "endColumns": "110,186,134,111,204,134,149,134,224,111,179,138,202,185,93,94,109",
-                        "endOffsets": "7786,7973,8108,8220,8425,8560,8710,8845,9291,9403,9583,9722,9925,10111,10205,10300,10410"
-                    }
-                },
-                {
-                    "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/dbed3a3f73fe03125e43a188691ee9d6/res/values-az/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "220",
-                        "endOffsets": "467"
-                    },
-                    "to": {
-                        "startLines": "113",
-                        "startColumns": "4",
-                        "startOffsets": "8850",
-                        "endColumns": "220",
-                        "endOffsets": "9066"
-                    }
-                },
-                {
-                    "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/3e8240f833b7b8349fdd3d894f1dd629/res/values-az/values-az.xml",
+                    "source": "C:\\Users\\nyenh\\.gradle\\caches\\transforms-2\\files-2.1\\d13bc0ec2b0659d25af49b0178e345c5\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,6,10,14,18,22,26,30,34,38,42,46,50,54,58,62,66,70,74,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/58067d1fe3d7bb6d6a6405748f5e79aa/res/values-az/values-az.xml",
+                    "source": "C:\\Users\\nyenh\\.gradle\\caches\\transforms-2\\files-2.1\\414f2685eecf01f8d293c96dce882940\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -88,6 +37,57 @@
                         "startOffsets": "4965,5073,5172,5284,5372,5479,5593,5674,5753,5844,5937,6032,6131,6232,6325,6420,6515,6606,6698,6783,6890,6997,7097,7206,7310,7420,7578,10831",
                         "endColumns": "107,98,111,87,106,113,80,78,90,92,94,98,100,92,94,94,90,91,84,106,106,99,108,103,109,157,101,82",
                         "endOffsets": "5068,5167,5279,5367,5474,5588,5669,5748,5839,5932,6027,6126,6227,6320,6415,6510,6601,6693,6778,6885,6992,7092,7201,7305,7415,7573,7675,10909"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\nyenh\\.gradle\\caches\\transforms-2\\files-2.1\\6e0b6dc0c3b14269ce2dfc2f73c15d67\\res\\values-az\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,352,539,670,778,983,1114,1260,1391,1616,1724,1904,2039,2242,2424,2514,2605",
+                        "endColumns": "106,186,130,107,204,130,145,130,224,107,179,134,202,181,89,90,105",
+                        "endOffsets": "351,538,669,777,982,1113,1259,1390,1615,1723,1903,2038,2241,2423,2513,2604,2710"
+                    },
+                    "to": {
+                        "startLines": "105,106,107,108,109,110,111,112,114,115,116,117,118,119,120,121,122",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "7680,7791,7978,8113,8225,8430,8565,8715,9071,9296,9408,9588,9727,9930,10116,10210,10305",
+                        "endColumns": "110,186,134,111,204,134,149,134,224,111,179,138,202,185,93,94,109",
+                        "endOffsets": "7786,7973,8108,8220,8425,8560,8710,8845,9291,9403,9583,9722,9925,10111,10205,10300,10410"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\nyenh\\.gradle\\caches\\transforms-2\\files-2.1\\6979e5511e91bc0a4c72d2f91acc41c0\\res\\values-az\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "220",
+                        "endOffsets": "467"
+                    },
+                    "to": {
+                        "startLines": "113",
+                        "startColumns": "4",
+                        "startOffsets": "8850",
+                        "endColumns": "220",
+                        "endOffsets": "9066"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\nyenh\\.gradle\\caches\\transforms-2\\files-2.1\\4ceed5aaee6454ed04dcf78db7d2c74a\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "127",
+                        "startColumns": "4",
+                        "startOffsets": "10914",
+                        "endColumns": "100",
+                        "endOffsets": "11010"
                     }
                 }
             ]

@@ -83,7 +83,8 @@ public class ViewSongsActivity extends AppCompatActivity
 
     @Override
     public void onListFragmentInteraction(Song item) {
-        siteUrl+=item.reference;
+        url = new ArrayList<>();
+        siteUrl = "https://hymnary.org/text/" + item.reference;
         System.out.println("URL:"+siteUrl);
         (new ParseURL()).execute(new String[]{siteUrl});
     }
@@ -94,27 +95,32 @@ public class ViewSongsActivity extends AppCompatActivity
 
         @Override
         protected String doInBackground (String[]strings){
-            StringBuffer buffer = new StringBuffer();
+            //StringBuffer buffer = new StringBuffer();
 
             try {
-                Document doc = Jsoup.connect(strings[0]).get();
+                System.out.println(strings[0]);
+                Document doc = Jsoup.connect(strings[0]).userAgent("Chrome").timeout(50000000).get();
                 Elements links = doc.select("a[href]");
                 for (Element link : links) {
 
-                    System.out.println(link.toString());
+                    System.out.println("in the try statement");
                     if (link.text().equals("PDF")) {
                         String linkHref = link.attr("href");
                         String linkref = link.ownText();
-                        buffer.append("Data [" + linkHref + "]");
+                        //buffer.append("Data [" + linkHref + "]");
                         url.add(linkHref);
                         break;
                     }
+
                 }
+
+            } catch (final java.net.SocketTimeoutException e){
+                System.out.println("You caught it!");
 
             } catch (Throwable t) {
                 t.printStackTrace();
             }
-            return buffer.toString();
+            return "";
         }
 
 
@@ -122,9 +128,14 @@ public class ViewSongsActivity extends AppCompatActivity
         protected void onPostExecute (String s){
             super.onPostExecute(s);
             Intent intent = new Intent(ViewSongsActivity.this, PdfScreen.class);
-            if(url.get(0)!=null)
-            intent.putExtra("n1", url.get(0));
-            startActivity(intent);
+            if(!url.isEmpty()) {
+                intent.putExtra("n1", url.get(0));
+                startActivity(intent);
+            }
+            else {
+                System.out.println("Array is empty");
+            }
         }
+
     }
 }

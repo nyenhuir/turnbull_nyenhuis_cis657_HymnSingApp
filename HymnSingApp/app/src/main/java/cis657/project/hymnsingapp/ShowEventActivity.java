@@ -54,8 +54,8 @@ public class ShowEventActivity extends AppCompatActivity
     TextView eventTime;
     @BindView(R.id.Date)
     TextView eventDate;
-    @BindView(R.id.editbutton)
-    Button editButton;
+
+    public static RecyclerView recycleview;
 
     Event shownEvent = new Event();
 
@@ -66,6 +66,8 @@ public class ShowEventActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
+
         songlist = new ArrayList<Song>();
         Intent receiveintent = getIntent();
         if(receiveintent.hasExtra("event")){
@@ -74,30 +76,24 @@ public class ShowEventActivity extends AppCompatActivity
             Event e = Parcels.unwrap(parcel);
             System.out.println(e.title);
             this.shownEvent=e;
+
+            songlist=shownEvent.songs;
+
+            setContentView(R.layout.activity_show_event);
+            ButterKnife.bind(this);
             eventTitle.setText(shownEvent.title);
             eventLocation.setText(shownEvent.location);
             eventTime.setText(shownEvent.time);
             eventDate.setText(shownEvent.date);
-            songlist=shownEvent.songs;
+        }
+        else {
+            setContentView(R.layout.activity_show_event);
+            ButterKnife.bind(this);
         }
 
+        recycleview = (RecyclerView) findViewById(R.id.fragment4);
+        recycleview.getAdapter().notifyDataSetChanged();
 
-        setContentView(R.layout.activity_show_event);
-
-        ButterKnife.bind(this);
-
-
-
-        editButton.setOnClickListener(y -> {
-
-            Intent result = new Intent(ShowEventActivity.this,ShowEventActivity.class);
-            Event newEvent = new Event();
-            newEvent.songs = this.songlist;
-            Parcelable parcel = Parcels.wrap(shownEvent);
-            result.putExtra("previous_event", parcel);
-            startActivity(result);
-            finish();
-        });
 
         receiveintent = getIntent();
         if(receiveintent.hasExtra("event")){
@@ -146,7 +142,8 @@ public class ShowEventActivity extends AppCompatActivity
 
     @Override
     public void onListFragmentInteraction(Song item) {
-        siteUrl+=item.reference;
+        url = new ArrayList<>();
+        siteUrl = "https://hymnary.org/text/" + item.reference;
         System.out.println("URL:"+siteUrl);
         (new ParseURL()).execute(new String[]{siteUrl});
 
@@ -158,27 +155,32 @@ public class ShowEventActivity extends AppCompatActivity
 
         @Override
         protected String doInBackground (String[]strings){
-            StringBuffer buffer = new StringBuffer();
+            //StringBuffer buffer = new StringBuffer();
 
             try {
-                Document doc = Jsoup.connect(strings[0]).get();
+                System.out.println(strings[0]);
+                Document doc = Jsoup.connect(strings[0]).userAgent("Chrome").timeout(50000000).get();
                 Elements links = doc.select("a[href]");
                 for (Element link : links) {
 
-                    System.out.println(link.toString());
+                    System.out.println("in the try statement");
                     if (link.text().equals("PDF")) {
                         String linkHref = link.attr("href");
                         String linkref = link.ownText();
-                        buffer.append("Data [" + linkHref + "]");
+                        //buffer.append("Data [" + linkHref + "]");
                         url.add(linkHref);
                         break;
                     }
+
                 }
+
+            } catch (final java.net.SocketTimeoutException e){
+                System.out.println("You caught it!");
 
             } catch (Throwable t) {
                 t.printStackTrace();
             }
-            return buffer.toString();
+            return "";
         }
 
 
@@ -186,9 +188,14 @@ public class ShowEventActivity extends AppCompatActivity
         protected void onPostExecute (String s){
             super.onPostExecute(s);
             Intent intent = new Intent(ShowEventActivity.this, PdfScreen.class);
-            if(url.get(0)!=null)
+            if(!url.isEmpty()) {
                 intent.putExtra("n1", url.get(0));
-            startActivity(intent);
+                startActivity(intent);
+            }
+            else {
+                System.out.println("Array is empty");
+            }
         }
+
     }
 }

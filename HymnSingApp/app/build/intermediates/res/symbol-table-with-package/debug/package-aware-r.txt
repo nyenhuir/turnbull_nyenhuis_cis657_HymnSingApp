@@ -1076,6 +1076,7 @@ id Date
 id FUNCTION
 id Location
 id META
+id Playlist
 id SHIFT
 id SYM
 id Time
@@ -1115,6 +1116,7 @@ id blocking
 id bottom
 id btnGo
 id bulletinButton
+id button
 id buttonPanel
 id cancel_action
 id center
@@ -1144,8 +1146,9 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id editText
+id editText2
 id edit_query
-id editbutton
 id edtResp
 id edtURL
 id end
@@ -1167,7 +1170,6 @@ id fixed
 id forever
 id fragment
 id fragment2
-id fragment3
 id fragment4
 id fragment5
 id ghost_view
@@ -1284,6 +1286,8 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
+id textView2
 id text_input_password_toggle
 id textinput_counter
 id textinput_error

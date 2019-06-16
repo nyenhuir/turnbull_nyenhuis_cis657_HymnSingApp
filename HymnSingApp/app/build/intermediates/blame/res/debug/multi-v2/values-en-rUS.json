@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rUS/values-en-rUS.xml",
+            "outputFile": "C:\\Users\\nyenh\\Desktop\\turnbull_nyenhuis_cis657_HymnSingApp\\HymnSingApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rUS\\values-en-rUS.xml",
             "map": [
                 {
-                    "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/3e8240f833b7b8349fdd3d894f1dd629/res/values-en-rUS/values-en-rUS.xml",
+                    "source": "C:\\Users\\nyenh\\.gradle\\caches\\transforms-2\\files-2.1\\d13bc0ec2b0659d25af49b0178e345c5\\res\\values-en-rUS\\values-en-rUS.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

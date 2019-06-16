@@ -226,19 +226,10 @@ public class HomeScreenActivity extends AppCompatActivity
 
     @Override
     public void onListFragmentInteraction(Event item) {
-        System.out.println("Interact!");
-        Intent intent = new Intent();
-//        Double[] vals = {item.origLat, item.origLong, item.endLat, item.endLong};
-//        intent.putExtra("item", vals);
-//        setResult(MainActivity.HISTORY_RESULT,intent);
-        finish();
-
-//        Intent result = new Intent();
-//        // add more code to initialize the rest of the fields
-//        Parcelable parcel = Parcels.wrap(item);
-//        result.putExtra("item", parcel);
-//        setResult(MainActivity.HISTORY_RESULT, result);
-//        finish();
+        Intent newLocation = new Intent(HomeScreenActivity.this, ShowEventActivity.class);
+        Parcelable parcel = Parcels.wrap(item);
+        newLocation.putExtra("event", parcel);
+        startActivity(newLocation);
 
     }
 
