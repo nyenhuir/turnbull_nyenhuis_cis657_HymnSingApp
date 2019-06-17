@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\nyenh\\Desktop\\turnbull_nyenhuis_cis657_HymnSingApp\\HymnSingApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi-rFI\\values-fi-rFI.xml",
+            "outputFile": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi-rFI/values-fi-rFI.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nyenh\\.gradle\\caches\\transforms-2\\files-2.1\\d13bc0ec2b0659d25af49b0178e345c5\\res\\values-fi-rFI\\values-fi-rFI.xml",
+                    "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/3e8240f833b7b8349fdd3d894f1dd629/res/values-fi-rFI/values-fi-rFI.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
