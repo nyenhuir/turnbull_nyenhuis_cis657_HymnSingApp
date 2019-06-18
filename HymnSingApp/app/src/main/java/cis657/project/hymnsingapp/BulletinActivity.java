@@ -66,3 +66,5 @@ public class BulletinActivity extends AppCompatActivity
         startActivity(newLocation);
     }
 }
+
+//Not possible without God's help.

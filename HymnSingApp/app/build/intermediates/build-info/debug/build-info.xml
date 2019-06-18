@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.4.1"
-    timestamp="1560885949932"
+    timestamp="1560893602818"
     token="6079241964187110154"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -65,7 +65,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1560885949932"
+        timestamp="1560893602818"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"

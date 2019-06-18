@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.List;
+
 import cis657.project.hymnsingapp.SongFragment.OnListFragmentInteractionListener;
 import cis657.project.hymnsingapp.dummy.SongContent.DummyItem;
-
-import java.util.List;
 
 /**
  * {@link RecyclerView.Adapter} that can display a {@link DummyItem} and makes a call to the
@@ -74,3 +74,5 @@ public class SongAdapter extends RecyclerView.Adapter<SongAdapter.ViewHolder> {
         }
     }
 }
+
+//Not possible without God's help.

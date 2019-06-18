@@ -13,9 +13,6 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import cis657.project.hymnsingapp.dummy.SongContent;
-import cis657.project.hymnsingapp.dummy.SongContent.DummyItem;
-
 /**
  * A fragment representing a list of Items.
  * <p/>
@@ -116,3 +113,5 @@ public class SongFragment extends Fragment {
         void onListFragmentInteraction(Song item);
     }
 }
+
+//Not possible without God's help.

@@ -1,12 +1,10 @@
 package cis657.project.hymnsingapp;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
 import org.parceler.Parcels;
 
 public class SongPickerActivity extends AppCompatActivity
@@ -30,3 +28,5 @@ public class SongPickerActivity extends AppCompatActivity
         finish();
     }
 }
+
+//Not possible without God's help.

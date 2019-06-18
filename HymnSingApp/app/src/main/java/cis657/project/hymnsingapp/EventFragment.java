@@ -11,13 +11,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-//import cis657.project.hymnsingapp.dummy.EventContent.EventItem;
-
-import org.parceler.transfuse.annotations.OnResume;
-
 import java.util.List;
 
-import cis657.project.hymnsingapp.EventAdapter;
+//import cis657.project.hymnsingapp.dummy.EventContent.EventItem;
 
 /**
  * A fragment representing a list of Items.
@@ -123,3 +119,4 @@ public class EventFragment extends Fragment {
         void onListFragmentInteraction(Event item);
     }
 }
+//Not possible without God's help.

@@ -2,11 +2,9 @@ package cis657.project.hymnsingapp;
 
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
-import android.widget.EditText;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -139,3 +137,5 @@ public class ViewSongsActivity extends AppCompatActivity
 
     }
 }
+
+//Not possible without God's help.

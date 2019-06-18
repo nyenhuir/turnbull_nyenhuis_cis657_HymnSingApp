@@ -1,8 +1,5 @@
 package cis657.project.hymnsingapp;
 
-import android.app.Service;
-import android.content.Intent;
-import android.os.IBinder;
 import android.util.Log;
 
 import com.google.firebase.iid.FirebaseInstanceId;
@@ -22,3 +19,6 @@ public class MyAndroidFirebaseInstanceIdService extends FirebaseInstanceIdServic
         // implement this method if you want to store the token on your server
     }
 }
+
+
+//Not possible without God's help.

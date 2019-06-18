@@ -56,3 +56,5 @@ public class MyAndroidFirebaseMessagingService extends FirebaseMessagingService 
         notificationManager.notify(0 /* ID of notification */, notificationBuilder.build());
     }
 }
+
+//Not possible without God's help.
