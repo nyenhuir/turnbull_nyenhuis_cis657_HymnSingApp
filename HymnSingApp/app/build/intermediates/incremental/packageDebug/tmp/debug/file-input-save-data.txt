@@ -1,18 +1,18 @@
 #Internal package file, do not edit.
-#Mon Jun 17 12:18:31 EDT 2019
+#Mon Jun 17 22:07:53 EDT 2019
 4.path=classes.dex
 8.set=DEX
 6.path=classes.dex
 0.baseType=DIRECTORY
 10.path=classes.dex
 5.baseType=DIRECTORY
-1.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/19
+1.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/11
 8.path=classes.dex
-3.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/18
+3.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/14
 4.set=DEX
-5.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/12
-7.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/14
-9.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/13
+5.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/16
+7.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/21
+9.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/12
 1.baseType=DIRECTORY
 0.set=DEX
 6.baseType=DIRECTORY
@@ -25,16 +25,16 @@
 3.path=classes.dex
 10.set=DEX
 5.path=classes.dex
-0.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/20
+0.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/20
 7.path=classes.dex
 9.path=classes.dex
 6.set=DEX
-2.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/16
-4.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/15
+2.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/18
+4.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/17
 3.baseType=DIRECTORY
-6.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/17
-10.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/21
-8.base=/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/11
+6.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/19
+10.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/15
+8.base=/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/transforms/dexMerger/debug/13
 2.set=DEX
 8.baseType=DIRECTORY
 9.set=DEX

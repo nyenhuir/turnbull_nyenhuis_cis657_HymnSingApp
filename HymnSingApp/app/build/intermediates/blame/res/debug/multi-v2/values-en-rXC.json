@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nyenhuir/Desktop/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "/Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/58067d1fe3d7bb6d6a6405748f5e79aa/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/jemimaturnbull/.gradle/caches/transforms-2/files-2.1/24a18a4888a56cfae008372490398bf8/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nyenhuir/.gradle/caches/transforms-2/files-2.1/9f60fd41d38c700e89445556cf10955e/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/jemimaturnbull/.gradle/caches/transforms-2/files-2.1/75b4715059c845817911db3345e2bbcd/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

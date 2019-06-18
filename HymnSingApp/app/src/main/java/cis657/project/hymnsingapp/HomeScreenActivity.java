@@ -1,10 +1,10 @@
 package cis657.project.hymnsingapp;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Button;
 
@@ -14,13 +14,13 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import org.parceler.Parcels;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 //import cis657.project.hymnsingapp.dummy.EventFragmentContent;
 
@@ -42,6 +42,10 @@ public class HomeScreenActivity extends AppCompatActivity
     DatabaseReference topRef2;
     public static List<Event> allEvents;
     public static List<Song> allSongs;
+
+
+
+
 
 
 
@@ -133,7 +137,14 @@ public class HomeScreenActivity extends AppCompatActivity
             Intent newLocation = new Intent(HomeScreenActivity.this, BulletinActivity.class);
             startActivityForResult(newLocation, BULLETIN_RESULT);
         });
+
+
+
+
+
     }
+
+
 
     @Override
     public void onResume(){
@@ -176,6 +187,20 @@ public class HomeScreenActivity extends AppCompatActivity
 
 //                    topRef.push().setValue(eventEntry);
                     recycleview.getAdapter().notifyDataSetChanged();
+
+                    FirebaseMessaging.getInstance().subscribeToTopic("liveurl_changed");
+
+
+
+
+
+
+
+
+
+
+
+
                 }
 
 
@@ -223,6 +248,7 @@ public class HomeScreenActivity extends AppCompatActivity
             else
                 super.onActivityResult(requestCode, resultCode, data);
         }
+
 
     @Override
     public void onListFragmentInteraction(Event item) {

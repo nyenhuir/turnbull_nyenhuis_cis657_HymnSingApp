@@ -1,0 +1,4 @@
+# Referenced at /Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:20
+-keep class android.support.multidex.MultiDexApplication { <init>(); }
+# Referenced at /Users/jemimaturnbull/Documents/CIS657/final/turnbull_nyenhuis_cis657_HymnSingApp/HymnSingApp/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:20
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
